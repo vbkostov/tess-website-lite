@@ -1,0 +1,68 @@
+<div class="container-fluid" style="margin-top: 1.5em; background: lightgrey;">
+  <footer>
+
+    <div class="container-fluid">
+
+      <!-- Partner logos -->
+      <div class="row">
+        <div class="col-md-10">
+          <a href="http://www.nasa.gov/"><img src="{{ SITEURL }}/images/logos/NASA_logo_vector_lg.png" width="60"
+              alt="NASA Logo"></a> &nbsp;&nbsp;&nbsp;
+          <a href="http://tess.mit.edu/"><img src="{{ SITEURL }}/images/partners/mit-logo.png" width="80"
+              alt="MIT Logo"></a> &nbsp;&nbsp;&nbsp;
+          <a href="https://www.cfa.harvard.edu/"><img src="{{ SITEURL }}/images/partners/CfA_Horizontal_CMYK.png"
+              width="176" alt="CfA Logo"></a> &nbsp;&nbsp;&nbsp;
+          <!--          <a href="https://www.ll.mit.edu/"><img src="{{ SITEURL }}/images/partners/lincoln-laboratory.png" width="50" alt="Lincoln Labs Logo"></a> &nbsp;&nbsp;&nbsp; -->
+          <a href="https://http://www.northropgrumman.com/"><img
+              src="{{ SITEURL }}/images/partners/Northrop_Grumman.png" width="176" alt="Orbital ATK Logo"></a>
+          &nbsp;&nbsp;&nbsp;
+          <a href="http://www.stsci.edu/"><img src="{{ SITEURL }}/images/partners/stsci_logo2.png" width="110"
+              alt="STScI Logo"></a>
+        </div>
+      </div>
+
+
+      <!-- Related websites -->
+      <div class="row">
+        <div class="col-xs-12">
+          <h5><i class="fa fa-external-link"></i><span class="icon-label">Related websites:</span></h5>
+          {% for name, link in RELATEDSITES %}
+          <a href="{{ link }}" target="_blank">
+            {{ name }}
+          </a>
+          <br />
+          {% endfor %}
+        </div>
+      </div>
+
+      <!-- NASA logo and notices -->
+      <div class="row" style="margin-top:2em;">
+        {% if article %}
+        {% set copy_date = article.locale_date %}
+        {% elif articles %}
+        {% set copy_date = articles[0].locale_date %}
+        {% else %}
+        {% set copy_date = '' %}
+        {% endif %}
+        <div class="col-md-10"> <a href="http://www.nasa.gov/"><img
+              src="{{ SITEURL }}/images/logos/NASA_logo_vector_lg.png" width="30" alt="NASA Logo"></a>
+          Last modified: {{ copy_date }}
+          &middot; Editor: {{AUTHOR}} &middot; NASA Official: Knicole Colon
+          &middot; <a href="http://www.nasa.gov/about/highlights/HP_Privacy.html">Privacy Policy and Important
+            Notices</a>
+          <p></p>
+          {%- if CC_LICENSE or CC_LICENSE_DERIVATIVES or CC_LICENSE_COMMERCIAL %}
+          {% from 'includes/cc-license.html' import cc_license_mark %}
+          <p><small>{{
+              cc_license_mark(cc_name=CC_LICENSE,derivatives=CC_LICENSE_DERIVATIVES,commercial=CC_LICENSE_COMMERCIAL,attr_markup=CC_ATTR_MARKUP,attr_props={'title':SITENAME,'name':article.author
+              if article else AUTHOR,'url':SITEURL}) }}</small></p>
+          {% endif %}
+        </div>
+        <div class="col-md-2">
+          <p class="pull-right"><i class="fa fa-arrow-up"></i> <a href="#">Back to top</a></p>
+        </div>
+      </div>
+    </div>
+
+  </footer>
+</div>
