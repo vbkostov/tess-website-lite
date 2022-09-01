@@ -70,7 +70,7 @@ MENUITEMS = (
              )
         ),
         ('Propose for Observations', (
-            ('Christina', 'christina.html'),
+            ('Proposing Basics', 'proposing_basics.html'),
             ('Christina', 'christina.html'),
             ('Christina', 'christina.html'),
                     )
@@ -114,5 +114,5 @@ IMPORTANT_DATES = (
 
 DISPLAY_ALERT = True
 ALERT_TYPE = 'warning'
-ALERT_TITLE = 'TESS Cycle 6 Proposal Deadline'
-ALERT_TEXT = "The TESS Cycle 6 Proposal Deadline is set for DATE, and "
+ALERT_TITLE = 'TESS Cycle 6 Proposal Deadline.'
+ALERT_TEXT = "The TESS Cycle 6 Proposal Deadline is set for DATE. If you are interested in obtaining processed data products or NASA grant funding from TESS, please consider proposing. Click the Proposing tab to learn more."
