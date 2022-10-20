@@ -63,6 +63,7 @@ RELATEDSITES = (
 MENUITEMS = (
           ('Education Resources', (
             ('What is TESS?', 'christina.html'),
+            ('TESS statistics','statistics.html'),
             ('Outreach Materials', 'christina.html'),
             ('Citizen Science', 'christina.html'),
             ('FAQ', 'christina.html'),
