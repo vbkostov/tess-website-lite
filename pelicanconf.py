@@ -1,5 +1,7 @@
 import datetime
 import os
+from datetime import date, timedelta
+import pandas as pd
 
 AUTHOR = 'TESS GI'
 SITEURL = ''
@@ -9,6 +11,17 @@ SITELOGO = 'images/logos/NASA_logo_vector_lg.png'
 SITELOGO_SIZE = 32
 SITEURL = "https://heasarc.gsfc.nasa.gov/docs/tess"	
 FULLURL = "https://heasarc.gsfc.nasa.gov/docs/tess"
+
+
+#Get the latest stats for the planet counter. Note the planet and paper counts are generated with a python script to be added in a future commit (consider them static at the moment)
+stats = pd.read_csv(PATH+'/statistics/planet_counter_stats.csv', index_col=0)
+#PLANETCOUNT = open(PATH+'/statistics/planetcount.txt','r').readline() if os.path.exists(PATH+'/statistics/planetcount.txt') else 0
+#PAPERCOUNT = open(PATH+'/statistics/papercount.txt','r').readline() if os.path.exists(PATH+'/statistics/papercount.txt') else 0
+
+PLANETCOUNT = stats['planetcount'].values[0]
+PAPERCOUNT = stats['papercount'].values[0]
+
+SCIENCE_DAYS = (date.today() - date.fromisoformat('2018-07-18')).days #days since start of TESS science operations
 
 
 
@@ -54,6 +67,7 @@ RELATEDSITES = (
 MENUITEMS = (
           ('Education Resources', (
             ('What is TESS?', 'christina.html'),
+            ('TESS statistics','statistics.html'),
             ('Outreach Materials', 'christina.html'),
             ('Citizen Science', 'christina.html'),
             ('FAQ', 'christina.html'),
