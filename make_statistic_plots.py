@@ -216,7 +216,7 @@ def make_interactive_paper_plot(
 ###################################################################
 
 # Makes a plot of the number of refereed papers over time, broken up by tpub category
-def make_static_publication_bar_chart(results, image_path="content/images/"):
+def make_static_publication_bar_chart(results, image_path="content/images/statistics/"):
     """
     Function to make a static plot that shows the number of publications for TESS, extrapolating to the end of the current year
 
@@ -295,7 +295,7 @@ def make_static_publication_bar_chart(results, image_path="content/images/"):
 ###################################################################
 
 
-def make_subject_piechart(results, image_path="content/images/"):
+def make_subject_piechart(results, image_path="content/images/statistics/"):
     """
     Function to make a static pie chart that shows the subject breakdown of TESS publications (astrophysics vs exoplanets)
 
@@ -353,7 +353,7 @@ def make_subject_piechart(results, image_path="content/images/"):
 ###################################################################
 
 
-def make_wordcloud(results, image_path="content/images/"):
+def make_wordcloud(results, image_path="content/images/statistics/"):
     """
     Function to make a wordcloud from the titles of all tpub entries (not just journal articles)
 
@@ -847,7 +847,7 @@ def make_paper_list(results, countries, states):
     return paper_list
 
 
-def plot_author_connections(paper_list, countries, image_path="content/images/"):
+def plot_author_connections(paper_list, countries, image_path="content/images/statistics/"):
     """
     Creates a static world map with a line connecting the affiliated location of the first author with all of their collaborating authors.
 
