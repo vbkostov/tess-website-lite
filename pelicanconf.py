@@ -61,24 +61,31 @@ MENUITEMS = (
         ),
 
         ('Science Resources', (
-            ('Christina', 'christina.html'),
-            ('Christina', 'christina.html'),
-            ('Christina', 'christina.html'),
-            ('Christina', 'christina.html'),
-            ('Christina', 'christina.html'),
-            ('Christina', 'christina.html'),
+            ('TESS Statistics', 'statistics.html'),
+            ('TESS Instrument Information', 'christina.html'),
+            ('TESS Data Product Information', 'christina.html'),
+            ('TESS Sector Information', 'christina.html'),
+            ('TESS Community', 'christina.html'),
+            ('Data Release Notes', 'christina.html'),
+            ('Documentation Library', 'christina.html'),
              )
         ),
         ('Propose for Observations', (
             ('Proposing Basics', 'proposing_basics.html'),
-            ('Christina', 'christina.html'),
-            ('Christina', 'christina.html'),
+            ('Propose for Upcoming Cycle 6', 'christina.html'),
+            ('Approved Programs', 'christina.html'),
+                    )
+        ),
+        ('Tools', (
+            ('Find TESS Targets with WTV', 'christina.html'),
+            ('Prepare a TESS Proposal with TPT', 'christina.html'),
+            ('Work with TESS Data online with TiKE', 'christina.html'),
                     )
         ),
         ('Tutorials', (
-            ('Christina', 'christina.html'),
-            ('Christina', 'christina.html'),
-            ('Christina', 'christina.html'),
+            ('Tutorial 1', 'christina.html'),
+            ('Tutorial 2', 'christina.html'),
+            ('Tutorial 3', 'christina.html'),
                     )
         ),
         # For press
