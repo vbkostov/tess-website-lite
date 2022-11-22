@@ -77,7 +77,7 @@ MENUITEMS = (
         ('Science Resources', (
             ('TESS Statistics', 'statistics.html'),
             ('TESS Instrument Information', 'christina.html'),
-            ('TESS Data Product Information', 'christina.html'),
+            ('TESS Data Product Information', 'data-products.html'),
             ('TESS Sector Information', 'christina.html'),
             ('TESS Community', 'christina.html'),
             ('Data Release Notes', 'christina.html'),
@@ -85,7 +85,7 @@ MENUITEMS = (
              )
         ),
         ('Propose for Observations', (
-            ('Proposing Basics', 'proposing_basics.html'),
+            ('Proposing Basics', 'proposing.html'),
             ('Propose for Upcoming Cycle 6', 'christina.html'),
             ('Approved Programs', 'christina.html'),
                     )
@@ -109,7 +109,15 @@ MENUITEMS = (
 
 MARKDOWN = {
   'extension_configs': {
-    'markdown.extensions.toc': {}
+    'markdown.extensions.toc': {},
+    'mdx_include': {
+            'base_path': "htmlcontent",
+            'recursive_relative_path': True,
+            'allow_local': True,
+            'allow_remote': True,
+            'recurs_local': True,
+            'recurs_remote': True
+        }
   }
 }
 

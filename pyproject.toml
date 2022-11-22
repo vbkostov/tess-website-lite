@@ -9,6 +9,7 @@ python = "^3.9"
 pelican = {extras = ["markdown"], version = "^4.8.0"}
 beautifulsoup4 = "^4.11.1"
 pandas = "^1.5.1"
+mdx-include = "^1.4.2"
 
 [tool.poetry.dev-dependencies]
 pytest = "^5.2"
