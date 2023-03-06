@@ -14,9 +14,7 @@ FULLURL = "https://heasarc.gsfc.nasa.gov/docs/tess"
 
 
 #Get the latest stats for the planet counter. Note the planet and paper counts are generated with a python script to be added in a future commit (consider them static at the moment)
-stats = pd.read_csv(PATH+'/statistics/planet_counter_stats.csv', index_col=0)
-#PLANETCOUNT = open(PATH+'/statistics/planetcount.txt','r').readline() if os.path.exists(PATH+'/statistics/planetcount.txt') else 0
-#PAPERCOUNT = open(PATH+'/statistics/papercount.txt','r').readline() if os.path.exists(PATH+'/statistics/papercount.txt') else 0
+stats = pd.read_csv('htmlcontent/statistics/data/planet_counter_stats.csv', index_col=0)
 
 PLANETCOUNT = stats['planetcount'].values[0]
 PAPERCOUNT = stats['papercount'].values[0]
@@ -77,7 +75,7 @@ MENUITEMS = (
         ('Science Resources', (
             ('TESS Statistics', 'statistics.html'),
             ('TESS Instrument Information', 'christina.html'),
-            ('TESS Data Product Information', 'christina.html'),
+            ('TESS Data Product Information', 'data-products.html'),
             ('TESS Sector Information', 'christina.html'),
             ('TESS Community', 'christina.html'),
             ('Data Release Notes', 'christina.html'),
@@ -85,7 +83,7 @@ MENUITEMS = (
              )
         ),
         ('Propose for Observations', (
-            ('Proposing Basics', 'proposing_basics.html'),
+            ('Proposing Basics', 'proposing.html'),
             ('Propose for Upcoming Cycle 6', 'christina.html'),
             ('Approved Programs', 'christina.html'),
                     )
@@ -109,7 +107,15 @@ MENUITEMS = (
 
 MARKDOWN = {
   'extension_configs': {
-    'markdown.extensions.toc': {}
+    'markdown.extensions.toc': {},
+    'mdx_include': {
+            'base_path': "htmlcontent",
+            'recursive_relative_path': True,
+            'allow_local': True,
+            'allow_remote': True,
+            'recurs_local': True,
+            'recurs_remote': True
+        }
   }
 }
 
