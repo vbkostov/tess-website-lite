@@ -14,12 +14,12 @@ import plotly.express as px
 from datetime import date, datetime
 from dateutil import rrule
 import matplotlib.pyplot as plt
-from wordcloud import WordCloud
+#from wordcloud import WordCloud
 from collections import defaultdict
 from collections import Counter
 
 
-def get_tpub(tpub_path="content/data/tpub.db"):
+def get_tpub(tpub_path="data/tpub.db"):
     """
     Read in the latest database file from tpub (Note that this is static for now, but can be adjusted later when we decide how we want to get tpub data for the website.)
 
@@ -41,7 +41,7 @@ def get_tpub(tpub_path="content/data/tpub.db"):
 
 
 # We will want to pull in some information on the author's affiliation (country and state (if applicable))
-def get_countries(country_path="content/data/countries_codes_and_coordinates.csv"):
+def get_countries(country_path="data/countries_codes_and_coordinates.csv"):
     """
     Function to read in the csv file containing country names, codes, and lat/long coordinates
 
@@ -55,7 +55,7 @@ def get_countries(country_path="content/data/countries_codes_and_coordinates.csv
     """
 
     # CSV from Christina
-    countries = pd.read_csv("content/data/countries_codes_and_coordinates.csv")
+    countries = pd.read_csv("data/countries_codes_and_coordinates.csv")
     for column in countries.columns[1:]:
         countries[column] = [c.strip().replace('"', "") for c in countries[column]]
     countries["Country"].replace(
@@ -64,7 +64,7 @@ def get_countries(country_path="content/data/countries_codes_and_coordinates.csv
     return countries
 
 
-def get_states(state_path="content/data/states.csv"):
+def get_states(state_path="data/states.csv"):
     """
     Function to read in the csv file containing US state names, postal codes, and lat/long coordinates
 
@@ -77,7 +77,7 @@ def get_states(state_path="content/data/states.csv"):
     states: Pandas dataframe with state information
     """
     states = (
-        pd.read_csv("content/data/states.csv")
+        pd.read_csv("data/states.csv")
         .sort_values("State")
         .reset_index(drop=True)
     )
@@ -111,7 +111,7 @@ def get_articles(tpub_results):
 
 
 def make_interactive_paper_plot(
-    article, plot_path="themes/pelican-bootstrap3-kepler/templates/includes/"
+    article, plot_path="../../themes/pelican-bootstrap3-kepler/templates/includes/"
 ):
     """
     Function to make an interactive plot that shows the number of journal publications for TESS
@@ -216,7 +216,7 @@ def make_interactive_paper_plot(
 ###################################################################
 
 # Makes a plot of the number of refereed papers over time, broken up by tpub category
-def make_static_publication_bar_chart(results, image_path="content/images/statistics/"):
+def make_static_publication_bar_chart(results, image_path="images/statistics/"):
     """
     Function to make a static plot that shows the number of publications for TESS, extrapolating to the end of the current year
 
@@ -295,7 +295,7 @@ def make_static_publication_bar_chart(results, image_path="content/images/statis
 ###################################################################
 
 
-def make_subject_piechart(results, image_path="content/images/statistics/"):
+def make_subject_piechart(results, image_path="images/statistics/"):
     """
     Function to make a static pie chart that shows the subject breakdown of TESS publications (astrophysics vs exoplanets)
 
@@ -353,40 +353,40 @@ def make_subject_piechart(results, image_path="content/images/statistics/"):
 ###################################################################
 
 
-def make_wordcloud(results, image_path="content/images/statistics/"):
-    """
-    Function to make a wordcloud from the titles of all tpub entries (not just journal articles)
+# def make_wordcloud(results, image_path="images/statistics/"):
+#     """
+#     Function to make a wordcloud from the titles of all tpub entries (not just journal articles)
 
-    Parameters
-    ----------------
-    results: TESS tpub articles (from get_articles())
-    image_path (optional): File path to save the image
+#     Parameters
+#     ----------------
+#     results: TESS tpub articles (from get_articles())
+#     image_path (optional): File path to save the image
 
-    Returns
-    ------------
-    None
-    """
-    title = [
-        json.loads(x)["title"][0]
-        for x in results["metrics"]
-        if json.loads(x)["title"] is not None
-    ]
+#     Returns
+#     ------------
+#     None
+#     """
+#     title = [
+#         json.loads(x)["title"][0]
+#         for x in results["metrics"]
+#         if json.loads(x)["title"] is not None
+#     ]
 
-    word_cloud = WordCloud(
-        colormap="flag",
-        collocations=False,
-        background_color="white",
-        min_word_length=2,
-        width=1200,
-        height=500,
-        min_font_size=8,
-    ).generate((" ").join(title))
+#     word_cloud = WordCloud(
+#         colormap="flag",
+#         collocations=False,
+#         background_color="white",
+#         min_word_length=2,
+#         width=1200,
+#         height=500,
+#         min_font_size=8,
+#     ).generate((" ").join(title))
 
-    plt.figure(figsize=(24, 10))
-    plt.imshow(word_cloud, interpolation="bilinear")
-    plt.axis("off")
-    plt.savefig(image_path + "wordcloud_title.png", bbox_inches="tight")
-    plt.close()
+#     plt.figure(figsize=(24, 10))
+#     plt.imshow(word_cloud, interpolation="bilinear")
+#     plt.axis("off")
+#     plt.savefig(image_path + "wordcloud_title.png", bbox_inches="tight")
+#     plt.close()
 
 
 ###################################################################
@@ -684,7 +684,7 @@ def make_author_group(author_list):
 def plot_American_authors(
     author_list,
     states,
-    plot_path="themes/pelican-bootstrap3-kepler/templates/includes/",
+    plot_path="../../themes/pelican-bootstrap3-kepler/templates/includes/",
 ):
     """
     Creates an html interactive plot showing the number of unique TESS authors (from any position on the author list) affiliated with a US institution from each state
@@ -761,7 +761,7 @@ def plot_American_authors(
 def plot_Global_authors(
     author_list,
     countries,
-    plot_path="themes/pelican-bootstrap3-kepler/templates/includes/",
+    plot_path="../../themes/pelican-bootstrap3-kepler/templates/includes/",
 ):
     """
     Creates an html interactive plot showing the number of unique TESS authors (first authors only) affiliated with a US institution from each state
@@ -787,6 +787,7 @@ def plot_Global_authors(
         {"country": country_counts.keys(), "count": country_counts.values()}
     ).dropna()
     cc_df["count_normalized"] = cc_df["count"] / sum(cc_df["count"])
+    import pdb;pdb.set_trace()
 
     fig = px.choropleth(
         cc_df,
@@ -847,7 +848,7 @@ def make_paper_list(results, countries, states):
     return paper_list
 
 
-def plot_author_connections(paper_list, countries, image_path="content/images/statistics/"):
+def plot_author_connections(paper_list, countries, image_path="images/statistics/"):
     """
     Creates a static world map with a line connecting the affiliated location of the first author with all of their collaborating authors.
 
@@ -941,14 +942,13 @@ def main():
     # Static plots
     make_static_publication_bar_chart(results)
     make_subject_piechart(results)
-    make_wordcloud(results)
+    #make_wordcloud(results)
     plot_author_connections(paper_list, countries)
 
     # interactive plots
     make_interactive_paper_plot(article)
     plot_American_authors(author_list, states)
     plot_Global_authors(author_list, countries)
-
 
 if __name__ == "__main__":
     main()
