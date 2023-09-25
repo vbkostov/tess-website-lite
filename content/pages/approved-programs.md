@@ -1,5 +1,4 @@
 title: TESS Approved Programs
-template: searchabletable
 save_as: approved-programs.html
 author: Christina Hedges
 date: 2023-09-11
