@@ -2,23 +2,31 @@ Title: Proposing to the TESS General Investigator program
 template: slide
 save_as: proposing.html
 
-NASA's TESS is a space-based telescope that images large parts of the sky in the visible at a cadence of 2 minutes or less. TESS observes the same part of the sky continually for 28 days. TESS provides users with three different kinds of data products: 
-* Target Pixel Files
-* Light Curves
-* Full Frame Images
+<!-- NASA's TESS is a space-based telescope that images large parts of the sky in the visible at a cadence of 2 minutes or less. TESS observes the same part of the sky continually for 28 days. The data is public, and includes precision photometry for tens of millions of sources.
 
-TESS data is public, and provides all-sky, space-based, long-duration (30+ days) precision photometry for tens of millions of sources. TESS enables studies of exoplanet systems, single and multiple stars, supernovae, galaxies, Solar System objects.  All data is made available through MAST immediately after data processing and validation is complete.
+TESS provides users with three different kinds of data products: <a href="https://archive.stsci.edu/missions-and-data/tess" target="_blank">Target Pixel Files (TPFs), Light Curves (LCs), and Full Frame Images (FFIs)</a>. The TPFs and LCs are provided for a subset of targets. These products have a shorter cadence, have background removed, and are corrected by the TESS pipeline, <a href="https://ui.adsabs.harvard.edu/abs/2016SPIE.9913E..3EJ/abstract" target="_blank">SPOC </a>.
 
-## What is the TESS GI program?
+TESS enables studies of exoplanet systems, single and multiple stars, supernovae, galaxies, and Solar System objects.  There are no reserved targets, no restricted science areas, and no proprietary period. All data is made available through MAST immediately after data processing and validation is complete. -->
 
-**Users can obtain both data and funding through the TESS General Investigator Program.** TESS obtains Full Frame Images during it's mission, and a for a subset of targets provides Target Pixel Files and Light Curves. These products have a shorter cadence, have background removed, and are corrected by the TESS pipeline. In order to obtain Target Pixel Files and Light Curves of targets, users must propose through the GI Program.
+The primary purpose of the TESS General Investigator (GI) Program is to enhance and maximize the science return from the mission. Users can obtain both data and funding through the TESS GI Program. The program facilitates and supports short-cadence observations with TESS as well as research undertaken with the Full-Frame Images.
 
-The GI Program provides:
+Below you can find more information on the TESS General Investigator (GI) Program and how to propose for TESS data and research funding. The information is presented as a slideshow separated into sections for:
 
-* Targets selected by the community which will be observed and delivered as TPFs and LCs (with systematics removed)
-* Funding for research with any TESS mission data products (including FFIs) and any ground based programs that directly support TESS research. 
-The primary purpose of the TESS General Investigator Program is to enhance and maximize the science return from TESS.
+<ul>
+    <li><a href="#/sec2"><b>Proposing Basics</b></a></li>
+    <li><a href="#/sec2"><b>What are the proposal types</b></a></li>
+    <li><a href="#/sec3"><b>How can I select targets</b></a></li>
+    <li> <a href="#/sec4"><b>How do I write a proposal</b></a></li>
+    <li> <a href="#/sec5"><b>How do I submit a proposal</b></a></li>
+    <li><a href="#/sec6"><b>How the proposal will be evaluated</b></a></li>
+    <li><a href="#/sec7"><b>Additional Resources</b></a></li>
+    <li> <a href="#/fin"><b>How to contact the TESS GI Helpdesk.</b></a></li>
+</ul>
 
-Below you can find more information on how to propose for TESS data and research funding.
+
+<i>To navigate through the slides, you can use the left/right arrows. To jump to the first/last slide use Shift+left/right arrow; to go to the beginning/end of a particular section use Shift+up/down arrow. The slide number is shown in the lower right corner of the slide. <u>For more presentation shortcuts press the question-mark key ("?") on the keyboard.</u></i>
+
+<!-- https://rise.readthedocs.io/en/stable/ for Jupyter notebook slides-->
+<!-- https://revealjs.com/config/ for reveal configs-->
 
 {! slides/proposing.slides.html !}
