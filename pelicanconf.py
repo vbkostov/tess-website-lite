@@ -74,8 +74,8 @@ MENUITEMS = (
 
         ('Science Resources', (
             ('TESS Statistics', 'statistics.html'),
-            ('TESS Instrument Information', 'christina.html'),
-            ('TESS Data Product Information', 'data-products.html'),
+            ('TESS Instrument Information', 'instrument_information.html'),
+            ('TESS Data Product Information', 'data_products.html'),
             ('TESS Sector Information', 'christina.html'),
             ('TESS Community', 'christina.html'),
             ('Data Release Notes', 'christina.html'),
