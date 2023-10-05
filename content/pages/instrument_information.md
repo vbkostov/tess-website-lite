@@ -10,7 +10,7 @@ Photometric performance and Technical Details
 
 --The figure below shows the 1-hour Combined Differential Photometric Precision (CDPP) from TESS Sector 1.
 
-<img src="https://heasarc.gsfc.nasa.gov/docs/tess/images/data/tess_tpf.png" width="700px"></img>
+<img src="https://heasarc.gsfc.nasa.gov/docs/tess/images/giprogram/cdpp_sector1.png" width="700px"></img>
 
 --The red points are the RMS CDPP measurements for the 15,889 light curves from Sector 1 plotted as a function of TESS magnitude.
 
