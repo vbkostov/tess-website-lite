@@ -140,9 +140,3 @@ Yes! You can check out the following tutorials and additional links therein.
 You can keep an eye on the <a href="https://twitter.com/tesshelp?lang=en" target="_blank">TESS Science Support Center X</a>. 
 
 If in doubt, reach out to <a href="https://heasarc.gsfc.nasa.gov/docs/tess/helpdesk.html" target="_blank"> TESS GI Helpdesk</a> at tesshelp@bigbang.gsfc.nasa.gov. We are happy to help answer any TESS-related questions!
-
-
-
-<!--<i>To navigate through the slides, you can use the left/right arrows. To jump to the first/last slide use Shift+left/right arrow; to go to the beginning/end of a particular section use Shift+up/down arrow. The slide number is shown in the lower right corner of the slide. <u>For more presentation shortcuts press the question-mark key ("?") on the keyboard.</u></i>-->
-
-<!--{! slides/proposing.slides.html !}-->

@@ -8,7 +8,7 @@ Each of these is created on-board the spacecraft by co-adding the individual 2-s
 
 Types of TESS Data Products
 
-1 Target Pixel Files [TPFs]
+1 Target Pixel Files [TPF]
 
 --Raw, target-specific data available at MAST.
 
