@@ -34,8 +34,6 @@ save_as: instrument_information.html
 
 <body>
 
-<!--<h2>Collapsibles</h2>-->
-
 <p>Here you can find information on the photometric performance of TESS, including major sources of noise, saturation, systematic effects, pixel-response-function, etc. Additional information can be found in the <a href = "https://archive.stsci.edu/missions/tess/doc/TESS_Instrument_Handbook_v0.1.pdf" target = "_blank"> TESS Instrument Handbook </a> and in the <a href = "https://archive.stsci.edu/tess/tess_drn.html" target = "_blank"> Data Release Notes </a>.</p>
 
 <button type="button" class="collapsible">Typical noise levels</button>

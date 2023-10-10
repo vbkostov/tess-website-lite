@@ -2,42 +2,82 @@ Title: Proposing to the TESS General Investigator program
 template: slide
 save_as: proposing.html
 
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+.collapsible {
+  background-color: #777;
+  color: white;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+}
+
+.active, .collapsible:hover {
+  background-color: #555;
+}
+
+.content {
+  padding: 0 18px;
+  display: none;
+  overflow: hidden;
+  background-color: #f1f1f1;
+}
+</style>
+</head>
+
+<body>
 
 The primary purpose of the TESS General Investigator (GI) Program is to enhance and maximize the science return from the mission. Users can obtain both data and funding through the TESS GI Program. The program facilitates and supports short-cadence observations with TESS as well as research undertaken with the Full-Frame Images.
 
 Below you can find more information on the TESS General Investigator (GI) Program and how to propose for TESS data and research funding.
 
-1 Proposal Basics
+<button type="button" class="collapsible">Proposal Basics</button>
+<div class="content">
+    <button type="button" class="collapsible">Why submit a TESS GI proposal?</button>
+    <div class="content">
+        <ul style=“list-style-type:circle”>
+            <li>Secure high-cadence observations (20 sec and 2 min) and mission-provided lightcurves for targets of interest</li>
+            <li>Pursue joint observing programs with Fermi, Swift, and NICER</li>
+            <li>Obtain funds for you and your collaborators, including support for ground-based observations supporting TESS science.</li>
+            <li>Participate in wide-range of cutting-edge science investigations with a NASA mission</li>
+        </ul>
+    </div>
+    <button type="button" class="collapsible">Who can submit a TESS GI proposal?</button>
+    <div class="content">
+        <ul style=“list-style-type:circle”>
+            <li>Anyone is eligible to submit a TESS GI Program.</li>
+            <li>To recieve funding through the TESS GI Program, you must be based at a US institution.</li>
+        </ul>
+    </div>
+    <button type="button" class="collapsible">What should I include in my proposal?</button>
+    <div class="content">
+        <ul style=“list-style-type:circle”>
+            <li>Proposals may utilize any combination of 2-minute cadence, 20-second cadence, and the Full-Frame Image data.</li>
+            <li>The proposal should provide a compelling, timely, and relevant scientific and technical justification.</li>
+            <li>The science justification may include, but is not limited to: exoplanet detection and characterization, stellar astrophysics, galactic and extragalactic astrophysics, and Solar System science.</li>
+            <li>The technical justification should be clearly described and sufficiently detailed to support the science case.</li>
+            <li>All except the mini proposals should also provide at least one paragraph for the work plan detailing how the proposed effort will be carried out.</li>
+            <li>The work plan should include the allocation of effort amongst investigators. This should be expressed in terms of each participant's role in the investigation to preserve the anonymity of the document.</li>
+        </ul>
+    </div>
+</div>
 
-1.1. Why submit a TESS GI proposal?
-
---Secure high-cadence observations (20 sec and 2 min) and mission-provided lightcurves for targets of interest
-
---Pursue joint observing programs with Fermi, Swift, and NICER
-
---Obtain funds for you and your collaborators, including support for ground-based observations supporting TESS science.
-
---Participate in wide-range of cutting-edge science investigations with a NASA mission
-
-1.2. Who can submit a TESS GI proposal?
-
---Anyone is eligible to submit a TESS GI Program.
-
---To recieve funding through the TESS GI Program, you must be based at a US institution.
-
-1.3. What should I include in my proposal?
-
---Proposals may utilize any combination of 2-minute cadence, 20-second cadence, and the Full-Frame Image data.
-
---The proposal should provide a compelling, timely, and relevant scientific and technical justification.
-
---The science justification may include, but is not limited to: exoplanet detection and characterization, stellar astrophysics, galactic and extragalactic astrophysics, and Solar System science.
-
---The technical justification should be clearly described and sufficiently detailed to support the science case.
-
---All except the mini proposals should also provide at least one paragraph for the work plan detailing how the proposed effort will be carried out.
-
---The work plan should include the allocation of effort amongst investigators. This should be expressed in terms of each participant's role in the investigation to preserve the anonymity of the document.
+<button type="button" class="collapsible">Proposal Basics</button>
+<div class="content">
+    <ul style=“list-style-type:circle”>
+        <li>Secure high-cadence observations (20 sec and 2 min) and mission-provided lightcurves for targets of interest</li>
+        <li>Pursue joint observing programs with Fermi, Swift, and NICER</li>
+        <li>Obtain funds for you and your collaborators, including support for ground-based observations supporting TESS science.</li>
+        <li>Participate in wide-range of cutting-edge science investigations with a NASA mission</li>
+    </ul>
+</div>
 
 2 Proposal Types
 
@@ -140,3 +180,23 @@ Yes! You can check out the following tutorials and additional links therein.
 You can keep an eye on the <a href="https://twitter.com/tesshelp?lang=en" target="_blank">TESS Science Support Center X</a>. 
 
 If in doubt, reach out to <a href="https://heasarc.gsfc.nasa.gov/docs/tess/helpdesk.html" target="_blank"> TESS GI Helpdesk</a> at tesshelp@bigbang.gsfc.nasa.gov. We are happy to help answer any TESS-related questions!
+
+<script>
+var coll = document.getElementsByClassName("collapsible");
+var i;
+
+for (i = 0; i < coll.length; i++) {
+  coll[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var content = this.nextElementSibling;
+    if (content.style.display === "block") {
+      content.style.display = "none";
+    } else {
+      content.style.display = "block";
+    }
+  });
+}
+</script>
+
+</body>
+</html>
