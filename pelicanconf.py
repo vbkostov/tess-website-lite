@@ -64,7 +64,7 @@ RELATEDSITES = (
 
 MENUITEMS = (
           ('Education Resources', (
-            ('What is TESS?', 'christina.html'),
+            ('What is TESS?', 'summary.html'),
             ('TESS statistics','statistics.html'),
             ('Outreach Materials', 'outreach.html'),
             ('Citizen Science', 'citizen_science.html'),
@@ -76,7 +76,7 @@ MENUITEMS = (
             ('TESS Statistics', 'statistics.html'),
             ('TESS Instrument Information', 'instrument_information.html'),
             ('TESS Data Product Information', 'data_products.html'),
-            ('TESS Sector Information', 'christina.html'),
+            ('TESS Sector Information', 'sector.html'),
             ('TESS Community', 'christina.html'),
             ('Data Release Notes', 'christina.html'),
             ('Documentation Library', 'christina.html'),
