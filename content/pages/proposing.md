@@ -69,7 +69,7 @@ Below you can find more information on the TESS General Investigator (GI) Progra
     </div>
 </div>
 
-<button type="button" class="collapsible">Proposal Basics</button>
+<button type="button" class="collapsible">Proposal Types</button>
 <div class="content">
     <ul style=“list-style-type:circle”>
         <li>Secure high-cadence observations (20 sec and 2 min) and mission-provided lightcurves for targets of interest</li>
