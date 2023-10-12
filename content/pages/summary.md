@@ -76,6 +76,12 @@ This website as well as the TESS Instrument Handbook and Data Release Notes shou
     </ul>
 </div>
 
+<button type="button" class="collapsible">Telescope Characteristics</button>
+<div class="content">
+    The TESS observatory consists of the spacecraft and the payload. The TESS payload has a single instrument, a camera suite composed of 4 identical wide field-of-view optical cameras and their associated hoods, mount, sun shield, and Data Handling Unit (DHU). The payload is coupled to the spacecraft, an NGIS LEOStar-2/750 satellite bus. The spacecraft provides power (via two deployable solar arrays), attitude control, data storage, and communications/transmission. 
+</div>
+
+
 <button type="button" class="collapsible">Science operations</button>
 <div class="content">
     <button type="button" class="collapsible">Primary Mission</button>
@@ -113,7 +119,8 @@ This website as well as the TESS Instrument Handbook and Data Release Notes shou
     <ul style=“list-style-type:circle”>
         <li>The first year of the second extended mission (Cycle 5) covered fields in both the Northern and Southern Ecliptic Hemispheres and ran from September 2022 until September 2023. It comprised of sectors 56 through 69. The second year (Cycle 6) covered fields along the ecliptic and in the Northern Hemispheres, runs from September 2023 until September 2024, and comprises of sectors 70 through 83.</li>
         <li>In Cycles 3 and 4, the following data products changes were introduced: (i) 6 times increase in the number of 2-minute cadenced targets alloted in the GI program; (ii) new 20-second cadence mode data for ~600 targets per sector; (iii) full frame images cadence changed from 30-minute to 10-minute.</li>
-        <li>The location of the sectors is shown in the figures below.<br/><img class="img-responsive" style="max-width:50%;" src="images/data/Year5_cel.png"><br/><br><img class="img-responsive" style="max-width:50%;" src="images/data/Year5_ecl.png"></br>*A depiction of the survey sectors for Cycle 5.<br/><img class="img-responsive" style="max-width:50%;" src="images/data/Year6_cel.png"><br/><br><img class="img-responsive" style="max-width:50%;" src="images/data/Year6_ecl.png"></br>*A depiction of the survey sectors for Cycle 6. Credit: Provided by  TESS MIT.*</li>
+        <li>The location of the sectors is shown in the figures below.<br/><img class="img-responsive" style="max-width:45%;" src="images/data/Year5_cel.png"><br/><br><img class="img-responsive" style="max-width:45%;" src="images/data/Year5_ecl.png"></br>*A depiction of the survey sectors for Cycle 5.<br/><img class="img-responsive" style="max-width:45%;" src="images/data/Year6_cel.png"><br/><br><img class="img-responsive" style="max-width:45%;" src="images/data/Year6_ecl.png"></br>*A depiction of the survey sectors for Cycle 6. Credit: Provided by TESS MIT.*</li>
+        <li>In Cycles 5 and 6, the following data products changes were introduced: (i) 2-min cadence mode data for ~8,000 targets per sector; (ii) 20-second cadence mode data for ~2,000 targets per sector; (iii) full frame images cadence changed from 10-minute to 200-sec.</li>
     </ul>
     </div>
 </div>
