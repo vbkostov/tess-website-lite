@@ -16,5 +16,3 @@ This website as well as the TESS Instrument Handbook and Data Release Notes shou
   TESS now?</button>
 
 <i>To navigate through the slides, you can use the left/right arrows. To jump to the first/last slide use Shift+left/right arrow; to go to the beginning/end of a particular section use Shift+up/down arrow. The slide number is shown in the lower right corner of the slide. <u>For more presentation shortcuts press the question-mark key ("?") on the keyboard.</u></i>  
-
-<!--{! slides/instrument.slides.html !}-->
