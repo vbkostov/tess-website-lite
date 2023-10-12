@@ -94,6 +94,7 @@ This website as well as the TESS Instrument Handbook and Data Release Notes shou
     *Sectors 14, 15, and 16 shifted north:*
     <img class="img-responsive" style="max-width:90%;" src="images/data/y1sec.png">
     <img class="img-responsive" style="max-width:90%;" src="images/data/y2sec.png">
+    <br><img class="img-responsive" style="max-width:80%;" src="images/data/tess_first_light_quarter.jpg"></img>*The first light image from TESS, showing the combined view of all four of its cameras taken on August 7, 2018. Image Credit: NASA/MIT/TESS*</br>
     </div>
     <button type="button" class="collapsible">First Extended Mission</button>
     <div class="content">
@@ -103,15 +104,18 @@ This website as well as the TESS Instrument Handbook and Data Release Notes shou
         <li>The TESS Cycle 3 coverage, dates, and camera information are shown below. <br/><img class="img-responsive" style="max-width:90%;" src="images/data/Cycle3sectors.png"><br/>*A depiction of the survey sectors for Cycle 3. Credit: Taken from the [TESS MIT Page](https://tess.mit.edu/observations/).*
         <li><img class="img-responsive" style="max-width:90%;" src="images/data/Cycle3table.png"><br/>*List of the sectors in Cycle 3. Details of the cameras, angles, and dates are provided. Credit: Taken from the [TESS MIT Page](https://tess.mit.edu/observations/).*</li>
         <li>The second year of the first extended mission (Cycle 4) comprised of 16 Sectors instead of 13, and as such lasted ~15 months running from Sectors 40-55. In this Cycle the Northern hemisphere was observed, with Sectors 40-41 sharing similar pointings to that of 14 and 15, at an ecliptic latitude of +85 degrees. Sectors 42-46 were ecliptic pointings and Sectors 47-55 Northern hemisphere pointings at an ecliptic latitude of +54 degrees. Sectors 52 and 53 then shifted north to +85 degrees to avoid scattered light in cameras 1 and 2.<br/><img class="img-responsive" style="max-width:90%;" src="images/data/Cycle4sectors.png"><br/>*A depiction of the survey sectors for Cycle 4. Credit: Taken from the [TESS MIT Page](https://tess.mit.edu/observations/).*<br/><img class="img-responsive" style="max-width:90%;" src="images/data/Cycle4table.png"><br/>*List of the sectors in Cycle 4. Details of the cameras, angles, and dates are provided. Credit: Taken from the [TESS MIT Page](https://tess.mit.edu/observations/).*</li>
+        <li>In Cycles 3 and 4, the following data products changes were introduced: (i) 6 times increase in the number of 2-minute cadenced targets alloted in the GI program; (ii) new 20-second cadence mode data for ~600 targets per sector; (iii) full frame images cadence changed from 30-minute to 10-minute.</li>
+        <li>more than 80% of the osberving time was dedicated to GI proposals. </li>
     </ul>
-
-
-
-
-<br>
-<img class="img-responsive" style="max-width:80%;" src="images/data/tess_first_light_quarter.jpg"></img>
-*The first light image from TESS, showing the combined view of all four of its cameras taken on August 7, 2018. Image Credit: NASA/MIT/TESS*
-</br>
+    </div>
+    <button type="button" class="collapsible">Second Extended Mission</button>
+    <div class="content">
+    <ul style=“list-style-type:circle”>
+        <li>The first year of the second extended mission (Cycle 5) covered fields in both the Northern and Southern Ecliptic Hemispheres and ran from September 2022 until September 2023. It comprised of sectors 56 through 69. The second year (Cycle 6) covered fields along the ecliptic and in the Northern Hemispheres, runs from September 2023 until September 2024, and comprises of sectors 70 through 83.</li>
+        <li>In Cycles 3 and 4, the following data products changes were introduced: (i) 6 times increase in the number of 2-minute cadenced targets alloted in the GI program; (ii) new 20-second cadence mode data for ~600 targets per sector; (iii) full frame images cadence changed from 30-minute to 10-minute.</li>
+        <li>The location of the sectors is shown in the figures below.<br/><img class="img-responsive" style="max-width:50%;" src="images/data/Year5_cel.png"><br/><br><img class="img-responsive" style="max-width:50%;" src="images/data/Year5_ecl.png"></br>*A depiction of the survey sectors for Cycle 5.<br/><img class="img-responsive" style="max-width:50%;" src="images/data/Year6_cel.png"><br/><br><img class="img-responsive" style="max-width:50%;" src="images/data/Year6_ecl.png"></br>*A depiction of the survey sectors for Cycle 6. Credit: Provided by  TESS MIT.*</li>
+    </ul>
+    </div>
 </div>
 
 
