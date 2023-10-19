@@ -62,6 +62,13 @@ This website as well as the TESS Instrument Handbook and Data Release Notes shou
     </ul>
 </div>
 
+<button type="button" class="collapsible">Observatory Characteristics</button>
+<div class="content">
+    The TESS observatory consists of the spacecraft and the payload. The TESS payload has a single instrument, a camera suite composed of 4 identical wide field-of-view optical cameras and their associated hoods, mount, sun shield, and Data Handling Unit (DHU). The payload is coupled to the spacecraft, an NGIS LEOStar-2/750 satellite bus. The spacecraft provides power (via two deployable solar arrays), attitude control, data storage, and communications/transmission. 
+    <br>
+    The four cameras cover a combined field-of-view (FOV) of 24x96 degrees (known as an observing sector). An overview of the FOV coverage and observing strategy for the mission can be found in the Operations page. Each camera consists of a CCD detector assembly, a lens assembly, and a lens hood
+</div>
+
 <button type="button" class="collapsible">Launch and orbit</button>
 <div class="content">
     <ul style=“list-style-type:circle”>
@@ -75,12 +82,6 @@ This website as well as the TESS Instrument Handbook and Data Release Notes shou
         </br>
     </ul>
 </div>
-
-<button type="button" class="collapsible">Telescope Characteristics</button>
-<div class="content">
-    The TESS observatory consists of the spacecraft and the payload. The TESS payload has a single instrument, a camera suite composed of 4 identical wide field-of-view optical cameras and their associated hoods, mount, sun shield, and Data Handling Unit (DHU). The payload is coupled to the spacecraft, an NGIS LEOStar-2/750 satellite bus. The spacecraft provides power (via two deployable solar arrays), attitude control, data storage, and communications/transmission. 
-</div>
-
 
 <button type="button" class="collapsible">Science operations</button>
 <div class="content">
