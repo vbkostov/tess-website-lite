@@ -74,6 +74,7 @@ MENUITEMS = (
 
         ('Science Resources', (
             ('TESS Statistics', 'statistics.html'),
+            ('TESS Telescope Information', 'telescope_information.html'),
             ('TESS Instrument Information', 'instrument_information.html'),
             ('TESS Data Product Information', 'data_products.html'),
             ('TESS Sector Information', 'sector.html'),
