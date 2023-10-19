@@ -10,13 +10,13 @@ The TUC Charter describes in more detail the goals and structure of the TUC. Ple
 
 The TUC Chair and Members for the 2023-2025 period are as follows:
 
-  Dan Huber (chair, email: huberd@hawaii.edu), University of Hawai’i & University of Sydney
-  Marcel Agüeros (email: marcel@astro.columbia.edu), Columbia University
-  Luke Bouma (email: luke@astro.caltech.edu), Caltech
-  Nora Eisner (email: neisner@flatironinstitute.org), Flatiron Institute, Center for Computational Astrophysics & Princeton University
-  Adina Feinstein (email: adina.feinstein@lasp.colorado.edu), University of Colorado Boulder
-  Teruyuki Hirano (email: teruyuki.hirano@nao.ac.jp), Astrobiology Center / National Astronomical Observatory of Japan
-  Savita Mathur (email: smathur@spacescience.org), Instituto de Astrofisica de Canarias
-  Armin Rest (email: arest@stsci.edu), STScI/JHU
-  Malena Rice (email: malena.rice@yale.edu), Yale University
-  Krista Lynne Smith (email:  klsmith@astro.umd.edu), Texas A&M University
+    Dan Huber (chair, email: huberd@hawaii.edu), University of Hawai’i & University of Sydney
+    Marcel Agüeros (email: marcel@astro.columbia.edu), Columbia University
+    Luke Bouma (email: luke@astro.caltech.edu), Caltech
+    Nora Eisner (email: neisner@flatironinstitute.org), Flatiron Institute, Center for Computational Astrophysics & Princeton University
+    Adina Feinstein (email: adina.feinstein@lasp.colorado.edu), University of Colorado Boulder
+    Teruyuki Hirano (email: teruyuki.hirano@nao.ac.jp), Astrobiology Center / National Astronomical Observatory of Japan
+    Savita Mathur (email: smathur@spacescience.org), Instituto de Astrofisica de Canarias
+    Armin Rest (email: arest@stsci.edu), STScI/JHU
+    Malena Rice (email: malena.rice@yale.edu), Yale University
+    Krista Lynne Smith (email:  klsmith@astro.umd.edu), Texas A&M University
