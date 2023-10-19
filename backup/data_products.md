@@ -44,21 +44,16 @@ Each of these is created on-board the spacecraft by co-adding the individual 2-s
 
 <button type="button" class="collapsible">Target Pixel Files [TPF]</button>
 <div class="content">
-    <br>The Target Pixel Files are the rawest form of target-specific data available at MAST. For each short-cadence target in an observing sector, TESS only acquires the pixels contained within a predefined mask. These pixels are used to create the data found in the light curve files.Each TPF packages these pixels as a time series of images in a binary FITS table. In this binary table, the pixel values are encoded as images. Each element in the binary table contains the pixels from a single cadence. The purpose of these files is to provide the data necessary to perform photometry on the raw or calibrated data when needed (or desired) to understand (or improve) the automated results of the TESS pipeline.
-    </br>
-    <br>
-    If a target is observed in more than one sector, multiple TPFs will be created for that target. Note that they may be made available in separate deliveries to the MAST.
-    </br>
-    <br>
-    The images in the TPF will have dimensions equal to the bounding box of the pixels that were collected for that target. Depending on the location of the target on a CCD, a TPF may therefore contain pixels that do not contain stored data.
-    </br>
-    <br>
-    TPFs will have several HDUs: a primary header, a binary table of images header and data, the aperture mask image header and data, and the cosmic ray correction binary table header and data. The aperture mask image provided with each TPF file indicates the pixels that were collected for the target and which of those pixels were used for photometry.
-    </br>
-    <br>
-    An example TPF is shown in the figure below for TIC 25375553. To learn more about TPFs and how to use them please see <a href = "https://github.com/spacetelescope/notebooks/blob/master/notebooks/MAST/TESS/beginner_how_to_use_tp/beginner_how_to_use_tp.ipynb" target = "_blank">this tutorial</a>
+    <ul style=“list-style-type:circle”>
+        <li>The Target Pixel Files are the rawest form of target-specific data available at MAST.</li>
+        <li>For each short-cadence target in an observing sector, TESS only acquires the pixels contained within a predefined mask. These pixels are used to create the data found in the light curve files.</li>
+        <li>Each TPF packages these pixels as a time series of images in a binary FITS table. In this binary table, the pixel values are encoded as images. Each element in the binary table contains the pixels from a single cadence. The purpose of these files is to provide the data necessary to perform photometry on the raw or calibrated data when needed (or desired) to understand (or improve) the automated results of the TESS pipeline.</li>
+        <li>If a target is observed in more than one sector, multiple TPFs will be created for that target. Note that they may be made available in separate deliveries to the MAST.</li>
+        <li>The images in the TPF will have dimensions equal to the bounding box of the pixels that were collected for that target. Depending on the location of the target on a CCD, a TPF may therefore contain pixels that do not contain stored data.</li>
+        <li>TPFs will have several HDUs: a primary header, a binary table of images header and data, the aperture mask image header and data, and the cosmic ray correction binary table header and data. The aperture mask image provided with each TPF file indicates the pixels that were collected for the target and which of those pixels were used for photometry.</li>
+        <li>An example TPF is shown in the figure below for TIC 25375553. To learn more about TPFs and how to use them please see <a href = "https://github.com/spacetelescope/notebooks/blob/master/notebooks/MAST/TESS/beginner_how_to_use_tp/beginner_how_to_use_tp.ipynb" target = "_blank">this tutorial </a></li>
+    </ul>
     <img src="images/data/tess_tpf.png" class="center"></img>
-    </br>
 </div>
 
 <button type="button" class="collapsible">Light Curve Files [LCFs or LCs]</button>
