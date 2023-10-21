@@ -37,7 +37,7 @@ save_as: telescope_information.html
 <p>The TESS observatory consists of the spacecraft and the payload. The TESS payload has a single instrument, a camera suite composed of 4 wide field-of-view optical cameras and their associated hoods, mount, sun shield, and Data Handling Unit (DHU). The payload is coupled to the spacecraft, an NGIS LEOStar-2/750 satellite bus. The spacecraft provides power (via two deployable solar arrays), attitude control, data storage, and communications/transmission. </p>
 
 
-<button type="button" class="collapsible">Scattered Light</button>
+<button type="button" class="collapsible">Telescope</button>
 <div class="content">
         <br>ZZZ</br>
 </div>
