@@ -80,11 +80,37 @@ The primary purpose of the TESS General Investigator (GI) Program is to enhance 
 
 <button type="button" class="collapsible">Selecting your TESS Targets</button>
 <div class="content">
+  <button type="button" class="collapsible">How do I find out if TESS can observe my targets?</button>
+  <div class="content">
+    <br>
+     The <a href="https://heasarc.gsfc.nasa.gov/wsgi-scripts/TESS/TESS-point_Web_Tool/TESS-point_Web_Tool/wtv_v2.0.py/" target="_blank">TESS-point Web Tool</a> is provided by the TESS Science Support Center to assist the community in planning and proposing. It allows the user to find the TESS observability of single or multiple targets, as well as calculate the brightness of a source in the TESS bandpass and estimate the corresponding TESS photometric error sigma. The user provides the name (or TIC ID, or RA/DEC) of an object, and the tool will output which sector and camera the object is expected to be observed with (or null results if it will not fall in the TESS FOV). For larger sets of targets, the TESS-point Web Tool will take an input file (csv) with RA and DEC (in decimal) and return the potential visibility (sector/camera) per object.
+    </br>
+  </div>
+  <button type="button" class="collapsible"> Creating target lists</button>
+  <div class="content">
+    <br>
+    Proposers can follow <a href = "https://archive.stsci.edu/tess/"> MAST TESS </a> tutorials to learn how to access the Target Input Catalog (TIC) and Candidate Target List (CTL), crossmatch their targets with these catalogs, and create output files with relevant target information required for the GI call. The TESS GI program office requires that if a target is in the TIC, GI proposers must provide only the following columns from the TIC in comma separated value (csv) format:
     <ul style=“list-style-type:circle”>
-        <br>How do I find out if TESS can observe my targets?</br>
-        <br>With the coordinates in hand, you can use the <a href="https://heasarc.gsfc.nasa.gov/cgi-bin/tess/webtess/wtv.py" target="_blank">Web TESS Viewing tool</a></br>
-        <br>Another option to check target observability is the freely-available <a href="https://github.com/tessgi/tess-point" target="_blank">TESS-Point software</a></br>
+      <li>TIC ID (if available)</li>
+      <li>Right Ascension (decimal degrees)</li>
+      <li>Declination (decimal degrees)</li>
+      <li>Proper motion in Right Ascension (mas/yr)</li>
+      <li>Proper motion in Declination (mas/yr) </li>
+      <li>TESS mag</li>
     </ul>
+    </br>
+    Since adherence to this format is critical for target list uploads to the <a href = "https://heasarc.gsfc.nasa.gov/ark/rps/"> Remote Proposal System (RPS) website </a>, the MAST has provided a <a href = "https://archive.stsci.edu/tess/tutorials/goddard_format.html"> tutorial </a> to show GI proposers how to select and output these columns for their target lists. Please follow this tutorial to provide a compliant target list. 
+    <br>
+    In addition to the above six columns, the following additional columns can be provided as necessary (the columns order must not change):
+    <ul style=“list-style-type:circle”>
+    <li>Common name of target</li>
+    <li>Extended flag</li>
+    <li>Special handling flag</li>
+    <li>20-second cadence flag</li>
+    <li>Swift time request (ksec)</li>
+    <li>Remarks</li>
+    </br>
+  </div>
 </div>
 
 <button type="button" class="collapsible">Writing your Proposal</button>
@@ -144,7 +170,30 @@ The primary purpose of the TESS General Investigator (GI) Program is to enhance 
     <ul style=“list-style-type:circle”>
         <br>Are there proposal templates available?</br>
         <ul style=“list-style-type:square>
-          <br>Yes! You can find them here.</br>
+          <br>Yes! You can find templates in the table below. Note that use of these templates is not required.</br>
+          <table class="table table-striped table-hover" style="max-width:55em;">
+            <tr>
+              <td>
+              <td>Template for small, large, and key proposals</td>
+              <td><a href="https://heasarc.gsfc.nasa.gov/docs/proposal-templates/tessgi_smalllargekey_template_cycle6.tex" download>Latex</a></td>
+              <td><a href="https://heasarc.gsfc.nasa.gov/docs/proposal-templates/tessgi_smalllargekey_template_cycle6.docx" download>Word</a></td>
+              <td><a href="https://heasarc.gsfc.nasa.gov/docs/proposal-templates/tessgi_smalllargekey_template_cycle6.pdf" download>PDF</a></td>
+            </tr>
+            <tr>
+              <td>
+              <td>Template for mini proposals</td>
+              <td><a href="https://heasarc.gsfc.nasa.gov/docs/proposal-templates/tessgi_mini_template_cycle6.tex" download>Latex</a></td>
+              <td><a href="https://heasarc.gsfc.nasa.gov/docs/proposal-templates/tessgi_mini_template_cycle6.docx" download>Word</a></td>
+              <td><a href="https://heasarc.gsfc.nasa.gov/docs/proposal-templates/tessgi_mini_template_cycle6.pdf" download>PDF</a></td>
+            </tr>
+            <tr>
+              <td>
+              <td>Template for team expertise</td>
+              <td><a href="https://heasarc.gsfc.nasa.gov/docs/proposal-templates/tessgi_teamexpertise_template_cycle6.tex" download>Latex</a></td>
+              <td><a href="https://heasarc.gsfc.nasa.gov/docs/proposal-templates/tessgi_teamexpertise_template_cycle6.docx" download>Word</a></td>
+              <td><a href="https://heasarc.gsfc.nasa.gov/docs/proposal-templates/tessgi_teamexpertise_template_cycle6.pdf" download>PDF</a></td>
+            </tr>
+          </table>
         </ul>
         <br>Can I see examples of successful proposals?</br>
         <ul style=“list-style-type:square>
@@ -169,6 +218,11 @@ The primary purpose of the TESS General Investigator (GI) Program is to enhance 
             <li> Investigations dominated by archival data analysis effort should respond to the Appendix D.2 Astrophysics Data Archive Program (ADAP) solicitation. </li>
             <li> Investigations dominated by ground-based data collection and/or analysis efforts should respond to the Appendix E.3 the Exoplanet Research Program (XRP), or the NSF Astronomy and Astrophysics Research Grants program (AAG). </li>
             <li> More information can be found <a href = 'https://heasarc.gsfc.nasa.gov/docs/tess/proposing-investigations.html'> here </a>.</li>
+          </ul>
+        <br>Director's Discretionary Target (DDT) program</br>
+          <ul>
+            The <a href = "https://tess.mit.edu/science/ddt/">DDT and out-of-cycle Target of Opportunity </a> processes for TESS draws on those used successfully for the NuStar Explorer mission. Proposals for DDT and the corresponding targets will be submitted through a form on the <a href = "https://tess.mit.edu/science/ddt/">MIT TESS website </a>. The requests will be reviewed by the TESS PI, a science expert selected by the TESS PI, and the TESS operations team. Approved targets will be posted on the MIT TESS website, along with the expected time(s) of observation.  There is no proprietary period for approved DDT observations. Data from a DDT observation will be delivered to the TESS archives concurrently with the non-DDT data from the sector in which the DDT is observed.
+            Note that a number of targets per sector have been reserved for targets which are not covered in the GI target lists, yet may warrant inclusion as targets. 
           </ul>
         <br>If in doubt, reach out to <a href="https://heasarc.gsfc.nasa.gov/docs/tess/helpdesk.html" target="_blank"> TESS GI Helpdesk</a> at tesshelp@bigbang.gsfc.nasa.gov. We are happy to help answer any TESS-related questions!</br>
     </ul>

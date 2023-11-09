@@ -70,8 +70,8 @@ Each of these is created on-board the spacecraft by co-adding the individual 2-s
     A single Light Curve File contains the data for one target for on observing sector. Identical to the case for TPFs, if a target was observed in more than one TESS sector, multiple Light Curve Files will be created but they may be made available on the MAST in separate deliveries. Light Curve Files will also consist of several HDUs: a primary header, the light curve photometry binary table header and data, and the aperture mask image header and data. The aperture mask image provided with each light curve is the same as that provided with the corresponding target TPF file.
     </br>
     <br>
-    An example LC is shown in the figure below for TIC 25375553. To learn more about LCFs and how to use them please see <a href = "https://github.com/spacetelescope/notebooks/blob/master/notebooks/MAST/TESS/beginner_how_to_use_lc/beginner_how_to_use_lc.ipynb" target = "_blank">this tutorial </a>
-    <img src="images/data/tess_tpf.png" class="center"></img>
+    An example LC is shown in the figure below for TIC 25375553, Sector 1. To learn more about LCFs and how to use them please see <a href = "https://github.com/spacetelescope/notebooks/blob/master/notebooks/MAST/TESS/beginner_how_to_use_lc/beginner_how_to_use_lc.ipynb" target = "_blank">this tutorial </a>
+    <img src="images/data/TIC_25375553_S1.png" class="center"></img>
 </div>
 
 <button type="button" class="collapsible">Full Frame Images [FFIs]</button>
@@ -168,12 +168,7 @@ Each of these is created on-board the spacecraft by co-adding the individual 2-s
     <br>
     TESS identifies targets from a target list onboard the computer, and selects small pixel cut outs around those regions. The FFIs and pixel cut outs are downlinked. The FFIs are then sent to the MAST archive; the pixel cut outs are processed by SPOC into TPFs, and then LCFS. The process is illustrated below.
     <img src="https://heasarc.gsfc.nasa.gov/docs/tess/images/tess_ffi_phot.png" class="center"></img>
-    </br>
-    <br>Here you can see a schematic diagram of one TESS CCD.
-    </br>
-    <br>
-    <img src="https://heasarc.gsfc.nasa.gov/docs/tess/images/data/tess_ccd.png" width="60%;" class="center"></img>
-    </br>    
+    </br>  
 </div>
 
 

@@ -172,7 +172,46 @@ This website as well as the TESS Instrument Handbook and Data Release Notes shou
     </div>
 </div>
 
+<button type="button" class="collapsible">What can TESS observe? (Add cool images)</button>
+<div class="content">
+  As an all-sky survey, TESS measures the brightness as a function of time of tens of millions of bright objects, including:
+  <button type="button" class="collapsible">Exoplanets</button>
+  <div class="content">
+    The primary exoplanet goal of TESS is to deliver 50 small transiting planets around bright nearby stars. These will be prime targets for follow-up observations aimed at mass measurements via Doppler spectroscopy, emission and transmission spectroscopy for atmospheric characterization with e.g. NASA's JWST, and for precise stellar characterization. Beyond these, TESS will discover thousands of transiting exoplanet systems with various planet sizes, orbital configurations, and multiplicity level, orbiting a wide range of stellar types, and residing in a diverse set of Galactic environments. 
+  </div>
 
+  <button type="button" class="collapsible">Stars</button>
+  <div class="content">
+    As the first all-sky, space-based photometric survey, TESS provides an excellent opportunity to dramatically expand our understanding of key aspects of stellar astrophysics. For example, the highest-cadence TESS observations are ideally-suited for detailed astreroseismology studies and analysis of stellar flares. The nearly-continuous, long-duration TESS observations provide critical information about the mechanisms responsible for intrinsic stellar variability due to e.g. stellar rotation or episodic/quasiperidoc dimming in young stellar objects. Other key contributions of TESS are in the realms of eclipsing binary stars, multiple stellar systems (eclipsing and non-eclipsing), pulsar timing, cataclysmic variables, etc.
+  </div>
+
+  <button type="button" class="collapsible">Supernovae</button>
+  <div class="content">
+    The discovery potential of TESS extends to late stages of stellar evolution as well, in particular to one of its most dramatic outcomes, supernovae explosions. Key component of our understanding of supernovae is the information contained in the shape and duration of the early-rise lightcurves, significantly before peak brightness. Catching these from the ground is challenging -- but TESS has already provided vital observations of dozens of Type Ia and II supernovae and many more are expected to follow suit. It is expected that the significance of TESS observations of supernovae will only increase with time as the sample of early-rise lightcurves grows. 
+  </div>
+
+  <button type="button" class="collapsible">Galaxies</button>
+  <div class="content">
+    Like their constituent stars, galaxies exhibit variability on multiple timescales and with a wide range of amplitudes. Active galactic nuclei,vary both photometrically and spectroscopically, and can exhibit extreme flaring events such as tidal disruptions, accretion rate changes, or ambiguous nuclear transients. The high-quality TESS data enables systematic studies of hours to weeks-long (and even longer) nuclear variability of galaxies at various distances and luminosities, and provides valuable constraints on the characteristic timescales observed in the corresponding lightcurves.
+  </div>
+
+  <button type="button" class="collapsible">Asteroids</button>
+  <div class="content">
+    While TESS excels at observing objects in the the distant Universe, it is an ideal platform to study our own Solar System as well. With its anti-Solar pointing, TESS is in the perfect position to observe these objects at opposition. Observations of comets, asteroids, and near-Earth objects are all within the capabilities of TESS, and the mission has already been highly successful at both their detection and characterization. For example, the observations have been used to measure rotation periods and constrain the shapes of thousands of objects, and more are expected to come. The impact and importance of these studies is not only on the astronomical community, but also on the entire human race as some of these objects can be considered an existential threat. 
+  </div>
+</div>
+
+
+
+
+<button type="button" class="collapsible">Engage with TESS</button>
+<div class="content">
+  Here you can find more information on how to engage with TESS and the TESS community.
+  <br>
+  <img class="img-responsive" style="max-width:100%;" src="images/data/engage_with_tess.png">
+  *Image Credit: MIT*
+  </br>
+</div>
 
 <script>
 var coll = document.getElementsByClassName("collapsible");

@@ -39,7 +39,7 @@ save_as: telescope_information.html
 
 <button type="button" class="collapsible"> Spacecraft </button>
 <div class="content">
-  <br>The TESS spacecraft is an NGIS LEOStar-2/750 satellite bus which provides power, attitude control, data storage, and communications/transmission. The spacecraft was built by Northrop Grumman Innovation Systems in Dulles, VA, where the Mission Operations Center (MOC) is located.</br>
+  <br>The TESS spacecraft is an NGIS LEOStar-2/750 satellite bus which provides power, attitude control, data storage, and communications/transmission. The spacecraft was built by <a href = "https://www.northropgrumman.com/"> Northrop Grumman Innovation Systems </a> in Dulles, VA, where the Mission Operations Center (MOC) is located.</br>
   <br>Power is supplied by two deployable solar array wings that are capable of providing 415 W of total power. The estimated requirement of the observatory is 290 W. The bus is equipped with a Ka-band transmitter coupled to an 0.7m body-fixed high-gain antenna. The transmitter operates on 2 W of power and transfers data at a rate of at 100 Mb/s, sufficient to downlink science data during 4-h intervals at each orbit perigee. Spacecraft attitude is controlled through a zero-momentum attitude control system with a three-axis hydrazine monopropellent propulsion system and 2 star trackers. The fine pointing of the observatory is achieved through four reaction wheels and high-precision quaternions produced by the science cameras.</br>
   <br/><img class="img-responsive" style="max-width:67%;" src="images/data/TESS_alone_high_res.jpg"><br/>*The TESS spacecraft and payload ready for launch. Image Credit: MIT*
   <br/><img class="img-responsive" style="max-width:67%;" src="images/data/spacecraft_orbital.png"><br/>*Image Credit: Northrop Grumman Innovation Systems*
@@ -63,6 +63,8 @@ save_as: telescope_information.html
     The detector assembly in each camera consists of a focal plane CCD array and associated electronics. Each CCD array contains four back-illuminated MIT/Lincoln Laboratory CCID-80 devices. The deep-depletion, frame-transfer CCDs consist of a 2048 x 2048 imaging array and a 2048 x 2048 frame-store region (for rapid shutterless readout 4 ms) with 15 x 15 micron pixels. The four CCDs in each array are separated by 2mm and create an effective 4096 x 4096 pixel detector that is operated at -75 degrees C to reduce dark current. The detectors are read out at 625 kHz with < 10 e- read noise. The detector electronics consist of two compact double-sided printed circuit boards seated beneath the CCD focal plane. The electronics transmit digitized data over a serial LVDS link to the Data Handling Unit. The four TESS cameras are bolted to a common plate such that their FOV's are aligned to form a total simultaneous FOV of 24x96 degrees.</br>
     <br/><img class="img-responsive" style="max-width:90%;" src="images/data/tess_detector_assembly.png">
     <br/> *TESS CCD mosaic in mounting bracket (left). TESS CCD mosaic and focal plane electronics with frame store regions covered (right). Image credit: MIT*
+    <br>Here you can see a schematic diagram of one TESS CCD.</br>
+    <br><img src="https://heasarc.gsfc.nasa.gov/docs/tess/images/data/tess_ccd.png" width="60%;" class="center"></img></br>  
   </div>
 
   <button type="button" class="collapsible"> Data Handling Unit (DHU) </button>
