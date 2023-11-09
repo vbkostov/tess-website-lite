@@ -75,13 +75,14 @@ MENUITEMS = (
         ('Science Resources', (
             ('TESS Statistics', 'statistics.html'),
             ('TESS Telescope Information', 'telescope_information.html'),
-            ('TESS Instrument Information', 'instrument_information.html'),
+            ('TESS Data Pipeline Information', 'data_pipeline.html'),
             ('TESS Data Product Information', 'data_products.html'),
             ('TESS Sector Information', 'sector.html'),
-            ('TESS Community', 'christina.html'),
+            ('TESS Community', 'community.html'),
             ('TESS Users Committee', 'tuc.html'),
-            ('Data Release Notes', 'christina.html'),
-            ('Documentation Library', 'christina.html'),
+            ('Data Release Notes', 'drn.html'),
+            ('Documentation Library', 'documentation.html'),
+            ('Frequently Asked Questions', 'faq.html'),
              )
         ),
         ('Propose for Observations', (

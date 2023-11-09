@@ -52,7 +52,7 @@ This website as well as the TESS Instrument Handbook and Data Release Notes shou
   The Transiting Exoplanet Survey Satellite (TESS) is a NASA-sponsored Astrophysics Explorer-class mission that is performing a photometric survey over 85% of the sky and searching for planets transiting nearby stars (within ~200 light years). The primary goal of TESS is to discover planets smaller than Neptune that transit stars bright enough to enable follow-up spectroscopic observations that can provide planet masses and atmospheric compositions.
   </br>
   <br>
-  TESS covers an area of the sky ~400 times larger than covered by Kepler, and the observed stars are typically 30-100 times brighter than those surveyed by Kepler.
+  TESS covers an area of the sky ~400 times larger than covered by Kepler, and the observed stars are typically 30-100 times brighter than those surveyed by Kepler. Planets detected around these stars are thus easier to characterize with follow-up observations, resulting in refined measurements of planet masses, sizes, densities, and atmospheric properties.
   </br>
   <br>
   <img class="img-responsive" style="max-width:67%;" src="images/data/tess_bright_stars.png">
@@ -72,21 +72,9 @@ This website as well as the TESS Instrument Handbook and Data Release Notes shou
   </br>
 </div>
 
-<button type="button" class="collapsible">Observatory Characteristics</button>
-<div class="content">
-  <br>The TESS observatory consists of the spacecraft and the payload. The TESS payload has a single instrument, a camera suite composed of 4 identical wide field-of-view optical cameras and their associated hoods, mount, sun shield, and Data Handling Unit (DHU). The payload is coupled to the spacecraft, an NGIS LEOStar-2/750 satellite bus. The spacecraft provides power (via two deployable solar arrays), attitude control, data storage, and communications/transmission.</br>
-  <br> The four cameras cover a combined field-of-view (FOV) of 24x96 degrees (known as an observing sector). An overview of the FOV coverage and observing strategy for the mission can be found in the Operations page. Each camera consists of a CCD detector assembly, a lens assembly, and a lens hood. </br>
-  <br>The lens assembly is a custom design housing seven lenses mounted into two separate aluminum barrels that are fastened together. The lens assembly has a 10.5 cm diameter entrance pupil and a focal ratio  f/1.4. All optical elements have antireflection coatings and one element has a long-pass filter coating to enforce a short-wavelength cutoff at 600 nm in the  TESS  bandpass. Each camera forms a 24x24 un-vignetted image on the detector in its focal plane. The lens assemblies were designed for consistent image spot size across the field-of-view (FOV) and to produce under-sampled images similar to  Kepler. Operating at nominal focus and a flight temperature of -75 degrees C, the 50% ensquared-energy half-width is 15 micron averaged over the FOV. This corresponds to 1 detector pixel or 21 arcseconds (approx. 0.35 arcmin) on sky. Along with an internal stray light baffle, each lens assembly aperture is equipped with a hood to reduce scattered light from the Earth and Moon.
-  <img class="img-responsive" style="max-width:67%;" src="images/data/tess_camera.png">*Image Credit: MIT*
-  <img class="img-responsive" style="max-width:75%;" src="images/data/tess_lens_assembly.png">  *The TESS Payload. Image Credit: MIT*
-  </br>
-</div>
-
 <button type="button" class="collapsible">Launch and orbit</button>
 <div class="content">
-  <br>
-  TESS launched on April 18, 2018 from Cape Canaveral Air Force Station aboard a SpaceX Falcon 9 rocket. TESS is the first NASA Astrophysics satellite mission to be launched under a contract with SpaceX.
-  </br>
+  <br>TESS launched on April 18, 2018 from Cape Canaveral Air Force Station aboard a SpaceX Falcon 9 rocket. TESS is the first NASA Astrophysics satellite mission to be launched under a contract with SpaceX.</br>
   <br>
   TESS observes from a unique elliptical high Earth orbit (HEO) that provides an unobstructed view of its field to obtain continuous light curves and a more stable platform for precise photometry than the low Earth orbit. The launch carried the observatory to parking orbit inclined by 28.5 degrees. The high Earth orbit was achieved through a series of propulsion system burns and a lunar flyby. Two burns raised the orbit apogee to 400,000 km, one at perigee of the first phasing orbit and another at perigee of the second phasing orbit. Another small adjustment was made before a lunar gravitational assist raised the ecliptic inclination to ~40 degrees. The final apogee and ~13.7 day orbital period were achieved through a final period-adjustment maneuver after the lunar flyby. Final orbit was achieved around 60 days after launch and regular science operations began July 25, 2018.
   </br>
@@ -128,10 +116,15 @@ This website as well as the TESS Instrument Handbook and Data Release Notes shou
       The scattered light performance in Sectors 14 and 15 was reviewed, and it was decided that Sector 16 would also have its pointing shifted north. In addition, it was decided that Sectors 24, 25, and 26 would benefit from having their pointings shifted north as well.
       </br>
       <br>
+      The fraction of sky coverage for the  different time baselines that TESS had over the 2-year prime mission is listed below. Note this does not  take into account the shift in pointing in Sectors 14, 15, and 16 that are described below. 
+      <br/>
+      <img class="img-responsive" style="max-width:67%;" src="images/data/tess_sky_coverage.png">
+      <br/>
+      <br>
       [Additional details on TESS observations can be found at the MIT TESS website](https://tess.mit.edu/observations/).
       </br>
       <br>
-      The sky coverage maps for Sectors 1-26 are given below in the ecliptic and celestial coordinate systems and show the shifted fields for Sectors 14, 15, 16 and 24, 25, 26. Note that Sectors 14, 15, and 16 shifted north.
+      The sky coverage maps for Sectors 1-26 are given below in the ecliptic and celestial coordinate systems and show the shifted fields for Sectors 14, 15, 16 and 24, 25, 26.
       </br>
       <br>
       <img class="img-responsive" style="max-width:90%;" src="images/data/y1sec.png">
@@ -148,7 +141,7 @@ This website as well as the TESS Instrument Handbook and Data Release Notes shou
       </br>
       <br>
       The TESS Cycle 3 coverage, dates, and camera information are shown below. <br/><img class="img-responsive" style="max-width:90%;" src="images/data/Cycle3sectors.png"><br/>*A depiction of the survey sectors for Cycle 3. Credit: Taken from the [TESS MIT Page](https://tess.mit.edu/observations/).*
-      /br>
+      </br>
       <br>
       <img class="img-responsive" style="max-width:90%;" src="images/data/Cycle3table.png"><br/>*List of the sectors in Cycle 3. Details of the cameras, angles, and dates are provided. Credit: Taken from the [TESS MIT Page](https://tess.mit.edu/observations/).*
       </br>
@@ -159,7 +152,7 @@ This website as well as the TESS Instrument Handbook and Data Release Notes shou
       In Cycles 3 and 4, the following data products changes were introduced: (i) 6 times increase in the number of 2-minute cadenced targets alloted in the GI program; (ii) new 20-second cadence mode data for ~600 targets per sector; (iii) full frame images cadence changed from 30-minute to 10-minute.
       </br>
       <br>
-      More than 80% of the osberving time was dedicated to GI proposals.
+      More than 80% of the observing time was dedicated to GI proposals.
       </br>
     </div>
     <button type="button" class="collapsible">Second Extended Mission</button>
@@ -168,13 +161,13 @@ This website as well as the TESS Instrument Handbook and Data Release Notes shou
       The first year of the second extended mission (Cycle 5) covered fields in both the Northern and Southern Ecliptic Hemispheres and ran from September 2022 until September 2023. It comprised of sectors 56 through 69. The second year (Cycle 6) covered fields along the ecliptic and in the Northern Hemispheres, runs from September 2023 until September 2024, and comprises of sectors 70 through 83.
       </br>
       <br>
-      In Cycles 3 and 4, the following data products changes were introduced: (i) 6 times increase in the number of 2-minute cadenced targets alloted in the GI program; (ii) new 20-second cadence mode data for ~600 targets per sector; (iii) full frame images cadence changed from 30-minute to 10-minute.
-      </br>
-      <br>
       The location of the sectors is shown in the figures below.<br/><img class="img-responsive" style="max-width:45%;" src="images/data/Year5_cel.png"><br/><br><img class="img-responsive" style="max-width:45%;" src="images/data/Year5_ecl.png"></br>*A depiction of the survey sectors for Cycle 5.<br/><img class="img-responsive" style="max-width:45%;" src="images/data/Year6_cel.png"><br/><br><img class="img-responsive" style="max-width:45%;" src="images/data/Year6_ecl.png"></br>*A depiction of the survey sectors for Cycle 6. Credit: Provided by TESS MIT.*
       </br>
       <br>
       In Cycles 5 and 6, the following data products changes were introduced: (i) 2-min cadence mode data for ~8,000 targets per sector; (ii) 20-second cadence mode data for ~2,000 targets per sector; (iii) full frame images cadence changed from 10-minute to 200-sec.
+      </br>
+      <br>
+      By the end of the second extended mission, TESS would cover at least 95% of the sky. 
       </br>
     </div>
 </div>

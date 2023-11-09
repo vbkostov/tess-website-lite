@@ -20,3 +20,5 @@ The TUC Chair and Members for the 2023-2025 period are as follows:
     Armin Rest (email: arest@stsci.edu), STScI/JHU
     Malena Rice (email: malena.rice@yale.edu), Yale University
     Krista Lynne Smith (email:  klsmith@astro.umd.edu), Texas A&M University
+
+Agenda for the TESS Users Committee Meeting on ZZZZ.

@@ -35,8 +35,8 @@ save_as: proposing.html
 <body>
 
 The primary purpose of the TESS General Investigator (GI) Program is to enhance and maximize the science return from the mission. Users can obtain both data and funding through the TESS GI Program. The program facilitates and supports short-cadence observations with TESS as well as research undertaken with the Full-Frame Images.
-
-Below you can find more information on the TESS General Investigator (GI) Program and how to propose for TESS data and research funding.
+<br> Note that the TESS GI program is for new TESS data only (ZZZZTHIS MIGHT CHANGE IN THE FUTUREZZZ) </br>
+<br> Below you can find more information on the TESS General Investigator (GI) Program and how to propose for TESS data and research funding. </br>
 
 <button type="button" class="collapsible">Proposal Basics</button>
 <div class="content">
@@ -72,9 +72,9 @@ Below you can find more information on the TESS General Investigator (GI) Progra
     <ul style=“list-style-type:circle”>
         <br>Type, Typical Duration, Budget, Targets, Length of science/technical section (References are not included in the page limit), Additional Comments</br>
         <br>Mini, One year, Not eligible, Up to fifty 20-sec cadence and up to 1000 2-min cadence, up to two pages, Not eligible for ground-based observations</br>
-        <br>Small, One year, $70,000, No limit, up to four pages,Ground-based proposals allowed</br>
-        <br>Large, One to three years, $250,000, No limit, up to six pages, Ground-based proposals allowed</br>
-        <br>Key Programs, Max 3 years, $250,000, No limit, up to six pages, Ground-based proposals allowed</br>
+        <br>Small, One year, $70,000, No limit, up to four pages,Ground-based proposals allowed (~1FTE for a grad student) </br>
+        <br>Large, One year, $250,000, No limit, up to six pages, Ground-based proposals allowed (~1FTE for a post doc)</br>
+        <br>Key Programs, Max 3 years, $250,000, No limit, up to six pages, Ground-based proposals allowed. Not always solicited depending on the mission cycle (e.g. near the end of an extended mission). </br>
     </ul>
 </div>
 
@@ -158,6 +158,18 @@ Below you can find more information on the TESS General Investigator (GI) Progra
         <ul style=“list-style-type:square>
           <br>You can keep an eye on the <a href="https://twitter.com/tesshelp?lang=en" target="_blank">TESS Science Support Center X</a>. </br>
         </ul>
+        <br>Where can I request a no cost extension for my grant?</br>
+        <ul>
+          You can make this request by filling out <a href = 'https://www.nasa.gov/centers/nssc/forms/grantcooperative-agreement-no-cost-extension-request'> this form </a>.
+        </ul>
+        <br>Can I propose to use archival data?</br>
+          <ul>
+            Proposals to use archival TESS data or to perform other TESS-related investigations could be submitted through the following solicitations:
+            <li> Investigations dominated by theoretical effort should respond to the Appendix D.4 Astrophysics Theory Program (ATP) solicitation, or Appendix E.3 the Exoplanet Research Program (XRP). </li>
+            <li> Investigations dominated by archival data analysis effort should respond to the Appendix D.2 Astrophysics Data Archive Program (ADAP) solicitation. </li>
+            <li> Investigations dominated by ground-based data collection and/or analysis efforts should respond to the Appendix E.3 the Exoplanet Research Program (XRP), or the NSF Astronomy and Astrophysics Research Grants program (AAG). </li>
+            <li> More information can be found <a href = 'https://heasarc.gsfc.nasa.gov/docs/tess/proposing-investigations.html'> here </a>.</li>
+          </ul>
         <br>If in doubt, reach out to <a href="https://heasarc.gsfc.nasa.gov/docs/tess/helpdesk.html" target="_blank"> TESS GI Helpdesk</a> at tesshelp@bigbang.gsfc.nasa.gov. We are happy to help answer any TESS-related questions!</br>
     </ul>
 </div>
