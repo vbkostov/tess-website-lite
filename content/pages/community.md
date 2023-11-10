@@ -251,6 +251,12 @@ save_as: community.html
 
   <tr>
     <td style="width: 15em;"><a
+    href='https://exogram.vercel.app'>Exogram</a></td>
+    <td>Online toolkit for vetting and validation of TESS data. </td>
+  </tr>
+
+  <tr>
+    <td style="width: 15em;"><a
     href='https://github.com/exoplanet-dev/exoplanet'>exoplanet</a></td>
     <td> Toolkit for probabilistic modeling of time series data in astronomy with a focus on observations of exoplanets
     </td>
@@ -370,6 +376,12 @@ save_as: community.html
 
   <tr>
     <td style="width: 15em;"><a
+    href='https://fast-lightcurve-inspector.osc-fr1.scalingo.io'>FLI</a></td>
+    <td>Online toolkit for visual inspection of TESS data. </td>
+  </tr>
+
+  <tr>
+    <td style="width: 15em;"><a
     href='https://github.com/skgrunblatt/FoFreeAST'>FoFreeAST</a></td>
     <td>Fourier-Free Asteroseismology: uses celerite to model granulation and oscillations of stars.
     </td>
@@ -387,6 +399,12 @@ save_as: community.html
     href='https://github.com/danxhuber/isoclassify'>isoclassify</a></td>
     <td>Perform stellar classifications using isochrone grids.
     </td>
+  </tr>
+
+  <tr>
+    <td style="width: 15em;"><a
+    href='http://latte-online.flatironinstitute.org/app'>LATTE</a></td>
+    <td>Online toolkit for visual inspection of TESS data. </td>
   </tr>
 
   <tr>
