@@ -68,21 +68,19 @@ MENUITEMS = (
             ('TESS statistics','statistics.html'),
             ('Outreach Materials', 'outreach.html'),
             ('Citizen Science', 'citizen_science.html'),
-            ('FAQ', 'christina.html'),
+            ('Frequently Asked Questions', 'faq.html'),
                     )
         ),
 
         ('Science Resources', (
             ('TESS Statistics', 'statistics.html'),
             ('TESS Telescope Information', 'telescope_information.html'),
+            ('TESS Sector Information', 'sector.html'),
             ('TESS Data Pipeline Information', 'data_pipeline.html'),
             ('TESS Data Product Information', 'data_products.html'),
-            ('TESS Sector Information', 'sector.html'),
-            ('TESS Community', 'community.html'),
             ('TESS Users Committee', 'tuc.html'),
             ('Data Release Notes', 'drn.html'),
             ('Documentation Library', 'documentation.html'),
-            ('Frequently Asked Questions', 'faq.html'),
              )
         ),
         ('Propose for Observations', (
@@ -92,14 +90,15 @@ MENUITEMS = (
                     )
         ),
         ('Tools', (
+            ('TESS Data Analysis and Community Tools', 'community.html'),
             ('Find TESS Targets with WTV', 'christina.html'),
             ('Prepare a TESS Proposal with TPT', 'christina.html'),
             ('Work with TESS Data online with TiKE', 'christina.html'),
                     )
         ),
         ('Tutorials', (
-            ('Tutorial 1', 'christina.html'),
-            ('Tutorial 2', 'christina.html'),
+            ('Tutorial 1', 'tutorial1.html'),
+            ('Tutorial 2', 'tutorial2.html'),
             ('Tutorial 3', 'christina.html'),
                     )
         ),

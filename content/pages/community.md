@@ -1,4 +1,4 @@
-Title: TESS Community
+Title: TESS Data Analysis and Community Tools
 template: slide
 save_as: community.html
 
@@ -34,63 +34,68 @@ save_as: community.html
 
 <body>
 
-<p>Here you can find information on the various community products, software tools, and efforts developed specifically for TESS data, or can be used or modified for TESS data. Note that tools and utilities are continuously under development by the community, and some can be more robust than others. The TESS Science Support Center periodically updates this list as new tools, software, and tutorials become available. If you have any tools you would like us to include or highlight, please contact us at [tesshelp@bigbang.gsfc.nasa.gov](mailto:tesshelp@bigbang.gsfc.nasa.gov).</p>
+<p>Here you can find information on the various community products, software tools, and efforts developed specifically for TESS data, or can be used or modified for TESS data. Note that tools and utilities are continuously under development by the community, and some can be more robust than others. The TESS Science Support Center periodically updates this list as new tools, software, and tutorials become available. 
 
-<button type="button" class="collapsible"> TESS Follow-Up Observing Program </button>
+If you have any tools you would like us to include or highlight, please contact us at <a href="https://heasarc.gsfc.nasa.gov/docs/tess/helpdesk.html" target="_blank"> TESS GI Helpdesk</a> or tesshelp@bigbang.gsfc.nasa.gov</p>
+
+<button type="button" class="collapsible"> <a href = 'https://docs.lightkurve.org'>Lightkurve </a></button>
+<div class="content">
+  Lightkurve is a Python-based package developed by the Kepler/K2 Guest Observer (GO) Office for use by the community to work with Kepler and K2 data. The TESS GI Office has partnered with the Kepler/K2 GO Office to adapt Lightkurve for use with TESS data. 
+  <ul>Lightkurve functionality:
+    <li>Reading, writing, and interacting with pipeline products (TPFs, LightCurve files, etc) </li>
+    <li>Extracting light curves from pixels using custom aperture photometry or custom PSF fitting.</li>
+    <li>Removing trends or correcting systematics using widely-used, non-controversial methods (SavGol, CBVs, SFF, ...</li>
+  </ul>
+  The lightkurve git repository can be found <a href = 'https://github.com/lightkurve/lightkurve'> here </a>.
+</div>
+
+<button type="button" class="collapsible"> <a href = 'https://tess.mit.edu/followup/'>TESS Follow-Up Observing Program </a></button>
 <div class="content">
   The TESS Follow-Up Observing Program (TFOP) is a large international working group of astronomers brought together to primarily provide follow-up observations to support the TESS Mission's primary goal of measuring the masses for 50 planets smaller than 4 Earth radii. Stars hosting high priority planet candidates are observed to establish reliable stellar parameters, confirm the existence of planets, refine their radii, and measure planet masses.
-
   The TFOP is led by the <a href = "https://www.cfa.harvard.edu"> Smithsonian Astrophysical Observatory (SAO) </a>, in coordination with MIT, as part of the TESS Science Office. A goal of TFOP is to foster communication and coordination among the TESS Science Team members and the community in order to maximize scientific output and minimize duplication of effort. 
-
   The TFOP is organized into five sub-groups: Seeing-Limited Photometry (SG1), Recon Spectroscopy (SG2), High-Resolution Imaging (SG3), Precise Radial Velocities (SG4), and Space-Based Photometry (SG5). TFOP observations are performed with committed time on the [Las Cumbres Observatory Network](https://lco.global) (for photometry and spectroscopy), the MEarth (photometry) and TRES (spectroscopy) facilities, and numerous other facilities through the usual telescope time allocation processes. There are currently dozens of working groups (each representing a team and facility from around the world) involved in TFOP and additional participation and follow-up programs are welcome. For more information and to apply to join TFOP, [check out the MIT website here](https://tess.mit.edu/followup/).
-
   Observations acquired via the TFOP are uploaded to the ExoFOP Repository, described in further detail below.
 </div>
 
-<button type="button" class="collapsible"> ExoFOP Repository </button>
+<button type="button" class="collapsible"> <a href = 'https://exofop.ipac.caltech.edu/'> ExoFOP Repository </a></button>
 <div class="content">
-  [ExoFOP](https://exofop.ipac.caltech.edu/) is a web-based service developed and operated by the [NASA Exoplanet Science Institute (NExScI)](http://nexsci.caltech.edu) originally for the Kepler and K2 Follow-Up Observation Programs. ExoFOP plays a key role in coordinating TESS Follow-Up Observing Program (TFOP) activities and hosting observations and tools. ExoFOP is a 'sand-box' for the community to share data and information regarding follow-up observations to help facilitate the efficient and effective use of community telescope resources. ExoFOP is connected to and integrated with the [NASA Exoplanet Archive](https://exoplanetarchive.ipac.caltech.edu).
-
-  ExoFOP hosts a dedicated page for TESS, [ExoFOP-TESS](https://exofop.ipac.caltech.edu/tess/), with a format similar to the Kepler/K2 pages. [ExoFOP-TESS](https://exofop.ipac.caltech.edu/tess/) contains overview pages for everything in TIC V8 (~1.7 billion targets).
-
-  ExoFOP-TESS includes:
-
-  * Summaries of TESS-observed targets
-  * TOI/CTOI lists with candidate planet parameters
-  * Overviews of individual targets
-  * Summaries of observations
-  * Observing notes
-  * Links to outside services (NASA Exoplanet Archive tools, MAST data and documentation, Simbad and other host star resources, community-produced light curves and products, and more)
-  * Telescope resource calendar
-
+  ExoFOP is a web-based service developed and operated by the <a href = 'http://nexsci.caltech.edu'> NASA Exoplanet Science Institute (NExScI) </a> originally for the Kepler and K2 Follow-Up Observation Programs. ExoFOP plays a key role in coordinating TESS Follow-Up Observing Program (TFOP) activities and hosting observations and tools. ExoFOP is a 'sand-box' for the community to share data and information regarding follow-up observations to help facilitate the efficient and effective use of community telescope resources. ExoFOP is connected to and integrated with the <a href = 'https://exoplanetarchive.ipac.caltech.edu'> NASA Exoplanet Archive </a>.
+  ExoFOP hosts a dedicated page for TESS, <a href = 'https://exofop.ipac.caltech.edu/tess/'> ExoFOP-TESS </a>, with a format similar to the Kepler/K2 pages. ExoFOP-TESS contains overview pages for everything in TIC V8 (~1.7 billion targets).
+  <ul>ExoFOP-TESS includes:
+    <li>Summaries of TESS-observed targets</li>
+    <li>TOI/CTOI lists with candidate planet parameters</li>
+    <li>Overviews of individual targets</li>
+    <li>Summaries of observations</li>
+    <li>Observing notes</li>
+    <li>Links to outside services (NASA Exoplanet Archive tools, MAST data and documentation, Simbad and other host star resources, community-produced light curves and products, and more)</li>
+    <li>Telescope resource calendar</li>
+  </ul> 
   All files (data/image/notes) can be uploaded in any format, in single or bulk-uploads. Attached notes can be html to enable linking within ExoFOP or outside. ExoFOP-TESS products will be searchable and available to sort and download. A tool to follow specific targets, or sets of targets, can be enabled via a "My Targets" feature with an option for email updates.
-
   <br/><img class="img-responsive" style="max-width:67%;" src="https://heasarc.gsfc.nasa.gov/docs/tess/images/data/exoFOP_figures.png">*Examples of supporting follow-up observation results that can be uploaded to ExoFOP. Image Credit: D. Ciardi/NexScI*<br/>
 </div>
 
 <button type="button" class="collapsible"> High Level Science Products </button>
 <div class="content">
-  High level science products (HLSP) created by the community (e.g., full-frame image light curves) can be found at the MAST. If you are interested in creating a HLSP and having it hosted on MAST, we encourage you to [contact MAST](https://archive.stsci.edu/contacts.html).
-
-  A list of currently available HLSP for TESS can be found [here at MAST](https://archive.stsci.edu/hlsp/), including:
-
-  * [TESS-HERMES Spectroscopic Survey](https://archive.stsci.edu/prepds/tess-hermes/) (PI: Sanjib Sharma)
-  * [Data Products From TESS Data Alerts](https://archive.stsci.edu/prepds/tess-data-alerts/) (PI: Roland Vanderspek)
-  * [TESS Data For Asteroseismology Lightcurves](http://archive.stsci.edu/hlsp/tasoc) (PI: Rasmus Handberg)
-  * [Cluster Difference Imaging Photometric Survey](http://archive.stsci.edu/hlsp/cdips) (PI: Luke Bouma)
-  * [eleanor FFI Light Curves From TESS ](http://archive.stsci.edu/prepds/eleanor) (PI: Benjamin Montet)
-  * [A PSF-Based Approach to TESS High Quality Data Of Stellar Clusters](http://archive.stsci.edu/hlsp/pathos) (PI: Domenico Nardiello)
-  * [TESS Light Curves From Full Frame Images](https://archive.stsci.edu/hlsp/tess-spoc) (PI: Douglas A. Caldwell)
-  * [TESS Lightcurves From The MIT Quick-Look Pipeline](https://archive.stsci.edu/hlsp/qlp) (PI: Chelsea X. Huang)
-  * [Multi-Sector Light Curves From TESS Full Frame Imaes (DIAMANTE)](https://archive.stsci.edu/hlsp/diamante) (PI: Marco Montalto)
-  * [Convolution Neural Networks for Flare Identification in TESS 2-minute Data (STELLA)](https://archive.stsci.edu/hlsp/stella) (PI: Adina Feinstein)
-  * [TESS Image CAlibrator Full Frame Images (TICA)](https://archive.stsci.edu/hlsp/tica) (PI: Michael Fausnaugh)
-  * [The TESS Stellar Variability Catalog (TESS-SVC)](https://archive.stsci.edu/hlsp/tess-svc) (PI: Tara Fetherolf)
-  * [TESS-Gaia Light Curve ("TGLC")](https://archive.stsci.edu/hlsp/tglc) (PI: Timothy D. Brandt)
-  * [TESS Eclipsing Binaries ("TESS-EBs")](https://archive.stsci.edu/hlsp/tess-ebs) (PI: Andrej Prsa)
-  * [TESS FFI-Based Light Curves from the GSFC Team (GSFC-ELEANOR-LITE)](https://archive.stsci.edu/hlsp/gsfc-eleanor-lite) (PI: Brian P. Powell) 
-  * [Simulated TESS Light Curves for Measuring Rotation with Deep Learning ("SMARTS")](https://archive.stsci.edu/hlsp/smarts) (PI: Zachary R. Claytor)
-  * [Cutouts from Wide-area TESS Coadded Images ("TESS-COADD-CUTOUTS")](https://archive.stsci.edu/hlsp/tess-coadd-cutouts) (PI: G. Bruce Berriman)
+  High level science products (HLSP) created by the community (e.g., full-frame image light curves) can be found at the MAST. If you are interested in creating a HLSP and having it hosted on MAST, we encourage you to <a href = 'https://archive.stsci.edu/contacts.html'> contact MAST </a>. A list of currently available HLSP for TESS can be found <a href = 'https://archive.stsci.edu/hlsp/'> here at MAST </a>, including:
+  <ul>
+    <li>[TESS-HERMES Spectroscopic Survey](https://archive.stsci.edu/prepds/tess-hermes/) (PI: Sanjib Sharma)</li>
+    <li>[Data Products From TESS Data Alerts](https://archive.stsci.edu/prepds/tess-data-alerts/) (PI: Roland Vanderspek)</li>
+    <li>[TESS Data For Asteroseismology Lightcurves](http://archive.stsci.edu/hlsp/tasoc) (PI: Rasmus Handberg)</li>
+    <li>[Cluster Difference Imaging Photometric Survey](http://archive.stsci.edu/hlsp/cdips) (PI: Luke Bouma)</li>
+    <li>[eleanor FFI Light Curves From TESS ](http://archive.stsci.edu/prepds/eleanor) (PI: Benjamin Montet)</li>
+    <li>[A PSF-Based Approach to TESS High Quality Data Of Stellar Clusters](http://archive.stsci.edu/hlsp/pathos) (PI: Domenico Nardiello)</li>
+    <li>[TESS Light Curves From Full Frame Images](https://archive.stsci.edu/hlsp/tess-spoc) (PI: Douglas A. Caldwell)</li>
+    <li>[TESS Lightcurves From The MIT Quick-Look Pipeline](https://archive.stsci.edu/hlsp/qlp) (PI: Chelsea X. Huang)</li>
+    <li>[Multi-Sector Light Curves From TESS Full Frame Imaes (DIAMANTE)](https://archive.stsci.edu/hlsp/diamante) (PI: Marco Montalto)</li>
+    <li>[Convolution Neural Networks for Flare Identification in TESS 2-minute Data (STELLA)](https://archive.stsci.edu/hlsp/stella) (PI: Adina Feinstein)</li>
+    <li>[TESS Image CAlibrator Full Frame Images (TICA)](https://archive.stsci.edu/hlsp/tica) (PI: Michael Fausnaugh)</li>
+    <li>[The TESS Stellar Variability Catalog (TESS-SVC)](https://archive.stsci.edu/hlsp/tess-svc) (PI: Tara Fetherolf)</li>
+    <li>[TESS-Gaia Light Curve ("TGLC")](https://archive.stsci.edu/hlsp/tglc) (PI: Timothy D. Brandt)</li>
+    <li>[TESS Eclipsing Binaries ("TESS-EBs")](https://archive.stsci.edu/hlsp/tess-ebs) (PI: Andrej Prsa)/li>
+    <li>[TESS FFI-Based Light Curves from the GSFC Team (GSFC-ELEANOR-LITE)](https://archive.stsci.edu/hlsp/gsfc-eleanor-lite) (PI: Brian P. Powell)</li>
+    <li>[Simulated TESS Light Curves for Measuring Rotation with Deep Learning ("SMARTS")](https://archive.stsci.edu/hlsp/smarts) (PI: Zachary R. Claytor)</li>
+    <li>[Cutouts from Wide-area TESS Coadded Images ("TESS-COADD-CUTOUTS")](https://archive.stsci.edu/hlsp/tess-coadd-cutouts) (PI: G. Bruce Berriman)</li>
+  </ul>
 </div>
 
 <button type="button" class="collapsible"> Detrending and analysis </button>
@@ -453,7 +458,7 @@ save_as: community.html
 </div>
 
 
-<button type="button" class="collapsible">Kepler/K2 tools remove</button>
+<button type="button" class="collapsible">Kepler/K2 tools REMOVE?</button>
 <div class="content">
 </div>
 
