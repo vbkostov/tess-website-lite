@@ -38,6 +38,10 @@ You can request support for your exciting new science result from NASA Goddard's
 
 Some common sources of anomalous light curves features include the target star being on a bad CCD column or scattered light from the Earth and/or Moon. It is recommended that Full-Frame Images taken at the same time as the anomalous feature be checked to verify whether or not the interesting feature seen is astrophysical in nature.
 
+** Is there a standard acknowledgement to use when publishing TESS data?**
+
+This paper includes data collected by the TESS mission, which are publicly available from the Mikulski Archive for Space Telescopes (MAST). Funding for the TESS mission is provided by NASA's Science Mission directorate.
+
 ## Miscellaneous
 
 **Media support**
