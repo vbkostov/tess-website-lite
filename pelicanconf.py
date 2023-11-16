@@ -85,7 +85,7 @@ MENUITEMS = (
         ),
         ('Propose for Observations', (
             ('Proposing Basics', 'proposing.html'),
-            ('Propose for Upcoming Cycle 6', 'christina.html'),
+            ('Propose for Upcoming Cycle 7', 'new_proposing.html'),
             ('Approved Programs', 'approved-programs.html'),
                     )
         ),
