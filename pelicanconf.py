@@ -65,7 +65,6 @@ RELATEDSITES = (
 MENUITEMS = (
           ('Education Resources', (
             ('What is TESS?', 'summary.html'),
-            ('TESS statistics','statistics.html'),
             ('Outreach Materials', 'outreach.html'),
             ('Citizen Science', 'citizen_science.html'),
             ('Frequently Asked Questions', 'faq.html'),
@@ -91,15 +90,14 @@ MENUITEMS = (
         ),
         ('Tools', (
             ('TESS Data Analysis and Community Tools', 'community.html'),
-            ('Find TESS Targets with WTV', 'christina.html'),
-            ('Prepare a TESS Proposal with TPT', 'christina.html'),
-            ('Work with TESS Data online with TiKE', 'christina.html'),
+            ('Prepare a TESS Proposal with TPT', 'new_proposing.html'),
+            ('Work with TESS Data online with TiKE', 'new_proposing.html'),
                     )
         ),
         ('Tutorials', (
             ('Tutorial 1', 'tutorial1.html'),
             ('Tutorial 2', 'tutorial2.html'),
-            ('Tutorial 3', 'christina.html'),
+            ('Tutorial 3', 'new_proposing.html'),
                     )
         ),
         # For press

@@ -83,7 +83,9 @@ The primary purpose of the TESS General Investigator (GI) Program is to enhance 
   <button type="button" class="collapsible">How do I find out if TESS can observe my targets?</button>
   <div class="content">
     <br>
-     The <a href="https://heasarc.gsfc.nasa.gov/wsgi-scripts/TESS/TESS-point_Web_Tool/TESS-point_Web_Tool/wtv_v2.0.py/" target="_blank">TESS-point Web Tool</a> is provided by the TESS Science Support Center to assist the community in planning and proposing. It allows the user to find the TESS observability of single or multiple targets, as well as calculate the brightness of a source in the TESS bandpass and estimate the corresponding TESS. photometric error sigma. The user provides the name (or TIC ID, or RA/DEC) of an object, and the tool will output which sector and camera the object is expected to be observed with (or null results if it will not fall in the TESS FOV). For larger sets of targets, the TESS-point Web Tool will take an input file (csv) with RA and DEC (in decimal) and return the potential visibility (sector/camera) per object.
+     The <a href="https://heasarc.gsfc.nasa.gov/wsgi-scripts/TESS/TESS-point_Web_Tool/TESS-point_Web_Tool/wtv_v2.0.py/" target="_blank">TESS-point Web Tool</a> is provided by the TESS Science Support Center to assist the community in planning and proposing. It allows the user to find the TESS observability of single or multiple targets, as well as calculate the brightness of a source in the TESS bandpass and estimate the corresponding TESS. photometric error sigma. 
+     <br>The user provides the name (or TIC ID, or RA/DEC) of an object, and the tool will output which sector and camera the object is expected to be observed with (or null results if it will not fall in the TESS FOV). For larger sets of targets, the TESS-point Web Tool will take an input file (csv) with RA and DEC (in decimal) and return the potential visibility (sector/camera) per object.
+     </br>
     </br>
   </div>
   <button type="button" class="collapsible"> Creating target lists</button>
