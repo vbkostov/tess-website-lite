@@ -24,7 +24,7 @@ today_date_decimal = today_split.year + (today_split.timetuple().tm_yday - 1) / 
 current_working_directory = os.getcwd()
 print(current_working_directory)
 
-import scripts.make-approved-programs#TESS_button_func
+# import scripts.make-approved-programs#TESS_button_func
 #from scripts.TESS_button_func import main_func as main_func
 #sector_today, orbit_today = main_func(today_date_decimal)
 
