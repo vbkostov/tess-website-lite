@@ -20,7 +20,7 @@ def plot():
 
     today = str(date.today())
     today_split = datetime.strptime(today, "%Y-%m-%d")
-    today_decimal = today_split.year + (today_split.timetuple().tm_yday - 1) / 365.2526
+    today_decimal = today_split.year + (today_split.timetuple().tm_yday - 1) / 365.2425
 
     sector_, orbit_ = find_tess_today(today_decimal)
     aa = plot_tess_today(sector_, orbit_)

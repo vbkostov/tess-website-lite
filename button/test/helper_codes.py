@@ -13,8 +13,8 @@ def find_tess_today(today_decimal):
         start_date = datetime.strptime(str(ii[0][0:10]), "%Y-%m-%d")
         end_date = datetime.strptime(str(ii[1][0:10]), "%Y-%m-%d")
         
-        start_date_decimal = start_date.year + (start_date.timetuple().tm_yday - 1) / 365.2526
-        end_date_decimal = end_date.year + (end_date.timetuple().tm_yday - 1) / 365.2526
+        start_date_decimal = start_date.year + (start_date.timetuple().tm_yday - 1) / 365.2425
+        end_date_decimal = end_date.year + (end_date.timetuple().tm_yday - 1) / 365.2425
 
         if (today_decimal >= start_date_decimal) & (today_decimal <= end_date_decimal):
             return int(ii[2]), int(ii[3])

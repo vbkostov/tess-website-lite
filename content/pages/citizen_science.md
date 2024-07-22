@@ -62,6 +62,6 @@ Do you want to discover and analyze your own exoplanets using TESS data? Or perh
   
   UNITE citizen scientists have already observed a number of interesting exoplants such as HD 80606b, HD 189733b, Kepler-167e, and supported important results that provided new insight into these faraway worlds. If you would like to contribute to this project, please visit the <a href = "https://science.unistellar.com/exoplanets/tutorial/" target="_blank">UNITE</a> page.
 
-  <td width="100%"><img src="https://heasarc.gsfc.nasa.gov/docs/tess/images/unite_example.png"></img></td>
+  <td width="100%"><img src="/content/images/data/unite_example.png"></img></td>
 
 </section>
