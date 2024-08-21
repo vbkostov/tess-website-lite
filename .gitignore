@@ -3,3 +3,5 @@ output
 tasks.py
 .DS_Store
 content/proposals
+*.png
+*.gif
