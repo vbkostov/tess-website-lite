@@ -5,3 +5,4 @@ tasks.py
 content/proposals
 *.png
 *.gif
+tess_gifs_and_pngs/.ipynb_checkpoints/pretty-tess-plots-checkpoint.ipynb
